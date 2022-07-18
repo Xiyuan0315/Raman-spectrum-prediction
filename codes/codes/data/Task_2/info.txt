@@ -1,0 +1,6 @@
+Data_1
+
+Sampled using the patient code
+ Train 80%
+Validate 10%
+Test 10%

@@ -1,0 +1,27 @@
+
+------ ******* ------ New Log ------ ******* ------
+isTrain: False
+net: CNN_CE
+isCNN: True
+isRandom: False
+dir_root: ./data
+task: Task_1
+filename: data_1.mat
+model_dir: ./experiments/Task1_CNN_2/model_best.pth
+isVal: False
+[Accu of 519-TestImgs]:0.913. 
+
+
+------ ******* ------ New Log ------ ******* ------
+isTrain: False
+net: CNN_CE_2
+isCNN: True
+isRandom: False
+dir_root: ./data
+task: Task_2
+filename: data.mat
+model_dir: ./experiments/Task2_CNN_CE_4/model_best.pth
+isVal: False
+[Accu of 1488-TestImgs]:0.986. 
+
+

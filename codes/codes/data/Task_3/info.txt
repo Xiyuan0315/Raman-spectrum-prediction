@@ -1,0 +1,29 @@
+Data 1
+Training
+Post-tratment <60 Days vs NPC
+unbalenced
+Testing 
+Post-treatment <60 Days vs rNPC
+
+Normalization
+un-normalized
+
+Data 2
+Training
+Post-tratment <60 Days vs NPC
+unbalenced
+Testing 
+Post-treatment <60 Days vs rNPC
+
+Normalization
+Normalized to sum = 1
+
+Data 3
+Training
+Post-tratment <60 Days vs NPC
+unbalenced
+Testing 
+Post-treatment <60 Days vs rNPC
+
+Normalization
+Normalized to area = 1

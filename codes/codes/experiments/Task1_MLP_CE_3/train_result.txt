@@ -1,0 +1,867 @@
+
+------ ******* ------ New Log ------ ******* ------
+isTrain: True
+net: MLP_CE_3
+isCNN: False
+isRandom: True
+exp_name: Task1_MLP_CE_3
+batch_size: 32
+epoch: 150
+milestones: [50, 100]
+lr: 0.001
+weight_decay: 0.0
+reweight: 1.0
+dir_root: ./data
+task: Task_1
+filename: data_1.mat
+save_dir: ./experiments
+
+------ ******* ------ New Log ------ ******* ------
+isTrain: True
+net: MLP_CE_3
+isCNN: False
+isRandom: True
+exp_name: Task1_MLP_CE_3
+batch_size: 32
+epoch: 150
+milestones: [50, 100]
+lr: 0.001
+weight_decay: 0.0
+reweight: 1.0
+dir_root: ./data
+task: Task_1
+filename: data_1.mat
+save_dir: ./experiments
+MLP_CE_3(
+  (mlp): Sequential(
+    (0): Linear(in_features=779, out_features=16, bias=True)
+    (1): BatchNorm1d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): Linear(in_features=16, out_features=32, bias=True)
+    (4): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU()
+    (6): Linear(in_features=32, out_features=16, bias=True)
+    (7): BatchNorm1d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (8): ReLU()
+    (9): Linear(in_features=16, out_features=2, bias=True)
+  )
+)
+EPOCH = 000/150, [time] = 2.16s, [Acc 4256-tr]:0.818, [avrg loss] = 0.4728022. [Accu 528-Val]:0.784. Best @ 000, with accu 0.784.
+EPOCH = 001/150, [time] = 2.08s, [Acc 4256-tr]:0.874, [avrg loss] = 0.3142157. [Accu 528-Val]:0.828. Best @ 001, with accu 0.828.
+EPOCH = 002/150, [time] = 2.01s, [Acc 4256-tr]:0.861, [avrg loss] = 0.2697673. [Accu 528-Val]:0.822. Best @ 001, with accu 0.828.
+EPOCH = 003/150, [time] = 2.07s, [Acc 4256-tr]:0.923, [avrg loss] = 0.2647410. [Accu 528-Val]:0.888. Best @ 003, with accu 0.888.
+EPOCH = 004/150, [time] = 1.98s, [Acc 4256-tr]:0.919, [avrg loss] = 0.2306723. [Accu 528-Val]:0.883. Best @ 003, with accu 0.888.
+EPOCH = 005/150, [time] = 1.95s, [Acc 4256-tr]:0.891, [avrg loss] = 0.2151519. [Accu 528-Val]:0.879. Best @ 003, with accu 0.888.
+EPOCH = 006/150, [time] = 1.95s, [Acc 4256-tr]:0.929, [avrg loss] = 0.2113548. [Accu 528-Val]:0.873. Best @ 003, with accu 0.888.
+EPOCH = 007/150, [time] = 1.98s, [Acc 4256-tr]:0.530, [avrg loss] = 0.2113111. [Accu 528-Val]:0.237. Best @ 003, with accu 0.888.
+EPOCH = 008/150, [time] = 2.03s, [Acc 4256-tr]:0.926, [avrg loss] = 0.2007212. [Accu 528-Val]:0.898. Best @ 008, with accu 0.898.
+EPOCH = 009/150, [time] = 2.08s, [Acc 4256-tr]:0.922, [avrg loss] = 0.1906806. [Accu 528-Val]:0.884. Best @ 008, with accu 0.898.
+EPOCH = 010/150, [time] = 2.01s, [Acc 4256-tr]:0.940, [avrg loss] = 0.1791313. [Accu 528-Val]:0.828. Best @ 008, with accu 0.898.
+EPOCH = 011/150, [time] = 2.05s, [Acc 4256-tr]:0.945, [avrg loss] = 0.1759952. [Accu 528-Val]:0.866. Best @ 008, with accu 0.898.
+EPOCH = 012/150, [time] = 1.95s, [Acc 4256-tr]:0.910, [avrg loss] = 0.1750700. [Accu 528-Val]:0.907. Best @ 012, with accu 0.907.
+EPOCH = 013/150, [time] = 2.00s, [Acc 4256-tr]:0.928, [avrg loss] = 0.1654179. [Accu 528-Val]:0.873. Best @ 012, with accu 0.907.
+EPOCH = 014/150, [time] = 2.03s, [Acc 4256-tr]:0.950, [avrg loss] = 0.1523122. [Accu 528-Val]:0.892. Best @ 012, with accu 0.907.
+EPOCH = 015/150, [time] = 1.99s, [Acc 4256-tr]:0.924, [avrg loss] = 0.1654338. [Accu 528-Val]:0.856. Best @ 012, with accu 0.907.
+EPOCH = 016/150, [time] = 2.02s, [Acc 4256-tr]:0.925, [avrg loss] = 0.1808895. [Accu 528-Val]:0.828. Best @ 012, with accu 0.907.
+EPOCH = 017/150, [time] = 1.85s, [Acc 4256-tr]:0.950, [avrg loss] = 0.1716135. [Accu 528-Val]:0.858. Best @ 012, with accu 0.907.
+EPOCH = 018/150, [time] = 2.03s, [Acc 4256-tr]:0.960, [avrg loss] = 0.1633352. [Accu 528-Val]:0.913. Best @ 018, with accu 0.913.
+EPOCH = 019/150, [time] = 2.01s, [Acc 4256-tr]:0.953, [avrg loss] = 0.1460238. [Accu 528-Val]:0.900. Best @ 018, with accu 0.913.
+EPOCH = 020/150, [time] = 2.03s, [Acc 4256-tr]:0.942, [avrg loss] = 0.1493103. [Accu 528-Val]:0.809. Best @ 018, with accu 0.913.
+EPOCH = 021/150, [time] = 2.05s, [Acc 4256-tr]:0.923, [avrg loss] = 0.1457112. [Accu 528-Val]:0.873. Best @ 018, with accu 0.913.
+EPOCH = 022/150, [time] = 1.88s, [Acc 4256-tr]:0.949, [avrg loss] = 0.1518011. [Accu 528-Val]:0.883. Best @ 018, with accu 0.913.
+EPOCH = 023/150, [time] = 2.08s, [Acc 4256-tr]:0.949, [avrg loss] = 0.1407360. [Accu 528-Val]:0.873. Best @ 018, with accu 0.913.
+EPOCH = 024/150, [time] = 2.04s, [Acc 4256-tr]:0.961, [avrg loss] = 0.1418668. [Accu 528-Val]:0.794. Best @ 018, with accu 0.913.
+EPOCH = 025/150, [time] = 1.98s, [Acc 4256-tr]:0.901, [avrg loss] = 0.1407873. [Accu 528-Val]:0.862. Best @ 018, with accu 0.913.
+EPOCH = 026/150, [time] = 2.00s, [Acc 4256-tr]:0.852, [avrg loss] = 0.1440853. [Accu 528-Val]:0.822. Best @ 018, with accu 0.913.
+EPOCH = 027/150, [time] = 1.97s, [Acc 4256-tr]:0.968, [avrg loss] = 0.1398583. [Accu 528-Val]:0.864. Best @ 018, with accu 0.913.
+EPOCH = 028/150, [time] = 1.92s, [Acc 4256-tr]:0.935, [avrg loss] = 0.1415542. [Accu 528-Val]:0.883. Best @ 018, with accu 0.913.
+EPOCH = 029/150, [time] = 2.12s, [Acc 4256-tr]:0.907, [avrg loss] = 0.1267016. [Accu 528-Val]:0.866. Best @ 018, with accu 0.913.
+EPOCH = 030/150, [time] = 2.02s, [Acc 4256-tr]:0.957, [avrg loss] = 0.1297177. [Accu 528-Val]:0.841. Best @ 018, with accu 0.913.
+EPOCH = 031/150, [time] = 2.10s, [Acc 4256-tr]:0.936, [avrg loss] = 0.1320674. [Accu 528-Val]:0.847. Best @ 018, with accu 0.913.
+EPOCH = 032/150, [time] = 2.05s, [Acc 4256-tr]:0.969, [avrg loss] = 0.1307515. [Accu 528-Val]:0.852. Best @ 018, with accu 0.913.
+EPOCH = 033/150, [time] = 2.01s, [Acc 4256-tr]:0.964, [avrg loss] = 0.1076591. [Accu 528-Val]:0.867. Best @ 018, with accu 0.913.
+EPOCH = 034/150, [time] = 2.05s, [Acc 4256-tr]:0.924, [avrg loss] = 0.1377992. [Accu 528-Val]:0.786. Best @ 018, with accu 0.913.
+EPOCH = 035/150, [time] = 1.98s, [Acc 4256-tr]:0.962, [avrg loss] = 0.1174013. [Accu 528-Val]:0.850. Best @ 018, with accu 0.913.
+EPOCH = 036/150, [time] = 2.03s, [Acc 4256-tr]:0.941, [avrg loss] = 0.1247921. [Accu 528-Val]:0.864. Best @ 018, with accu 0.913.
+EPOCH = 037/150, [time] = 2.07s, [Acc 4256-tr]:0.920, [avrg loss] = 0.1128571. [Accu 528-Val]:0.871. Best @ 018, with accu 0.913.
+EPOCH = 038/150, [time] = 2.06s, [Acc 4256-tr]:0.915, [avrg loss] = 0.1242504. [Accu 528-Val]:0.665. Best @ 018, with accu 0.913.
+EPOCH = 039/150, [time] = 2.07s, [Acc 4256-tr]:0.972, [avrg loss] = 0.1202016. [Accu 528-Val]:0.854. Best @ 018, with accu 0.913.
+EPOCH = 040/150, [time] = 2.03s, [Acc 4256-tr]:0.974, [avrg loss] = 0.1122370. [Accu 528-Val]:0.860. Best @ 018, with accu 0.913.
+EPOCH = 041/150, [time] = 1.97s, [Acc 4256-tr]:0.959, [avrg loss] = 0.1198322. [Accu 528-Val]:0.879. Best @ 018, with accu 0.913.
+EPOCH = 042/150, [time] = 2.03s, [Acc 4256-tr]:0.969, [avrg loss] = 0.0991024. [Accu 528-Val]:0.862. Best @ 018, with accu 0.913.
+EPOCH = 043/150, [time] = 2.03s, [Acc 4256-tr]:0.951, [avrg loss] = 0.1086985. [Accu 528-Val]:0.778. Best @ 018, with accu 0.913.
+EPOCH = 044/150, [time] = 2.01s, [Acc 4256-tr]:0.952, [avrg loss] = 0.1346063. [Accu 528-Val]:0.837. Best @ 018, with accu 0.913.
+EPOCH = 045/150, [time] = 2.06s, [Acc 4256-tr]:0.934, [avrg loss] = 0.1173911. [Accu 528-Val]:0.869. Best @ 018, with accu 0.913.
+EPOCH = 046/150, [time] = 2.02s, [Acc 4256-tr]:0.931, [avrg loss] = 0.1035076. [Accu 528-Val]:0.883. Best @ 018, with accu 0.913.
+EPOCH = 047/150, [time] = 2.04s, [Acc 4256-tr]:0.926, [avrg loss] = 0.1054428. [Accu 528-Val]:0.661. Best @ 018, with accu 0.913.
+EPOCH = 048/150, [time] = 2.10s, [Acc 4256-tr]:0.980, [avrg loss] = 0.1071176. [Accu 528-Val]:0.856. Best @ 018, with accu 0.913.
+EPOCH = 049/150, [time] = 2.00s, [Acc 4256-tr]:0.950, [avrg loss] = 0.1117057. [Accu 528-Val]:0.858. Best @ 018, with accu 0.913.
+
+------ ******* ------ New Log ------ ******* ------
+isTrain: True
+net: MLP_CE_3
+isCNN: False
+isRandom: True
+exp_name: Task1_MLP_CE_3
+batch_size: 32
+epoch: 150
+milestones: [50, 100]
+lr: 0.001
+weight_decay: 0.0
+reweight: 1.0
+dir_root: ./data
+task: Task_1
+filename: data_1.mat
+save_dir: ./experiments
+MLP_CE_3(
+  (mlp): Sequential(
+    (0): Linear(in_features=779, out_features=32, bias=True)
+    (1): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): Linear(in_features=32, out_features=32, bias=True)
+    (4): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU()
+    (6): Linear(in_features=32, out_features=2, bias=True)
+  )
+)
+EPOCH = 000/150, [time] = 2.05s, [Acc 4256-tr]:0.810, [avrg loss] = 0.4636013. [Accu 528-Val]:0.890. Best @ 000, with accu 0.890.
+EPOCH = 001/150, [time] = 1.92s, [Acc 4256-tr]:0.871, [avrg loss] = 0.3306230. [Accu 528-Val]:0.890. Best @ 000, with accu 0.890.
+EPOCH = 002/150, [time] = 1.96s, [Acc 4256-tr]:0.891, [avrg loss] = 0.2819246. [Accu 528-Val]:0.900. Best @ 002, with accu 0.900.
+EPOCH = 003/150, [time] = 1.93s, [Acc 4256-tr]:0.914, [avrg loss] = 0.2455700. [Accu 528-Val]:0.907. Best @ 003, with accu 0.907.
+EPOCH = 004/150, [time] = 1.91s, [Acc 4256-tr]:0.911, [avrg loss] = 0.2379360. [Accu 528-Val]:0.911. Best @ 004, with accu 0.911.
+EPOCH = 005/150, [time] = 1.93s, [Acc 4256-tr]:0.927, [avrg loss] = 0.2213408. [Accu 528-Val]:0.909. Best @ 004, with accu 0.911.
+EPOCH = 006/150, [time] = 1.89s, [Acc 4256-tr]:0.884, [avrg loss] = 0.2186403. [Accu 528-Val]:0.722. Best @ 004, with accu 0.911.
+EPOCH = 007/150, [time] = 1.98s, [Acc 4256-tr]:0.768, [avrg loss] = 0.2092178. [Accu 528-Val]:0.515. Best @ 004, with accu 0.911.
+EPOCH = 008/150, [time] = 1.94s, [Acc 4256-tr]:0.924, [avrg loss] = 0.1953708. [Accu 528-Val]:0.913. Best @ 008, with accu 0.913.
+EPOCH = 009/150, [time] = 1.94s, [Acc 4256-tr]:0.926, [avrg loss] = 0.1779544. [Accu 528-Val]:0.888. Best @ 008, with accu 0.913.
+EPOCH = 010/150, [time] = 1.95s, [Acc 4256-tr]:0.940, [avrg loss] = 0.1870690. [Accu 528-Val]:0.903. Best @ 008, with accu 0.913.
+EPOCH = 011/150, [time] = 1.89s, [Acc 4256-tr]:0.926, [avrg loss] = 0.2030760. [Accu 528-Val]:0.841. Best @ 008, with accu 0.913.
+EPOCH = 012/150, [time] = 1.91s, [Acc 4256-tr]:0.917, [avrg loss] = 0.2041631. [Accu 528-Val]:0.777. Best @ 008, with accu 0.913.
+EPOCH = 013/150, [time] = 1.95s, [Acc 4256-tr]:0.955, [avrg loss] = 0.1877626. [Accu 528-Val]:0.915. Best @ 013, with accu 0.915.
+EPOCH = 014/150, [time] = 1.95s, [Acc 4256-tr]:0.908, [avrg loss] = 0.1653059. [Accu 528-Val]:0.850. Best @ 013, with accu 0.915.
+EPOCH = 015/150, [time] = 1.87s, [Acc 4256-tr]:0.949, [avrg loss] = 0.1741974. [Accu 528-Val]:0.900. Best @ 013, with accu 0.915.
+EPOCH = 016/150, [time] = 1.93s, [Acc 4256-tr]:0.925, [avrg loss] = 0.1563011. [Accu 528-Val]:0.883. Best @ 013, with accu 0.915.
+EPOCH = 017/150, [time] = 1.90s, [Acc 4256-tr]:0.943, [avrg loss] = 0.1680144. [Accu 528-Val]:0.877. Best @ 013, with accu 0.915.
+EPOCH = 018/150, [time] = 1.95s, [Acc 4256-tr]:0.957, [avrg loss] = 0.1615076. [Accu 528-Val]:0.898. Best @ 013, with accu 0.915.
+EPOCH = 019/150, [time] = 1.90s, [Acc 4256-tr]:0.934, [avrg loss] = 0.1631623. [Accu 528-Val]:0.746. Best @ 013, with accu 0.915.
+EPOCH = 020/150, [time] = 1.95s, [Acc 4256-tr]:0.957, [avrg loss] = 0.1496187. [Accu 528-Val]:0.900. Best @ 013, with accu 0.915.
+EPOCH = 021/150, [time] = 1.96s, [Acc 4256-tr]:0.953, [avrg loss] = 0.1327033. [Accu 528-Val]:0.850. Best @ 013, with accu 0.915.
+EPOCH = 022/150, [time] = 1.86s, [Acc 4256-tr]:0.867, [avrg loss] = 0.1445911. [Accu 528-Val]:0.587. Best @ 013, with accu 0.915.
+EPOCH = 023/150, [time] = 1.91s, [Acc 4256-tr]:0.955, [avrg loss] = 0.1424045. [Accu 528-Val]:0.890. Best @ 013, with accu 0.915.
+EPOCH = 024/150, [time] = 1.92s, [Acc 4256-tr]:0.944, [avrg loss] = 0.1346624. [Accu 528-Val]:0.754. Best @ 013, with accu 0.915.
+EPOCH = 025/150, [time] = 1.84s, [Acc 4256-tr]:0.965, [avrg loss] = 0.1406905. [Accu 528-Val]:0.841. Best @ 013, with accu 0.915.
+EPOCH = 026/150, [time] = 2.01s, [Acc 4256-tr]:0.962, [avrg loss] = 0.1390927. [Accu 528-Val]:0.879. Best @ 013, with accu 0.915.
+EPOCH = 027/150, [time] = 1.87s, [Acc 4256-tr]:0.965, [avrg loss] = 0.1415857. [Accu 528-Val]:0.833. Best @ 013, with accu 0.915.
+EPOCH = 028/150, [time] = 1.96s, [Acc 4256-tr]:0.975, [avrg loss] = 0.1284983. [Accu 528-Val]:0.862. Best @ 013, with accu 0.915.
+EPOCH = 029/150, [time] = 1.99s, [Acc 4256-tr]:0.959, [avrg loss] = 0.1279156. [Accu 528-Val]:0.801. Best @ 013, with accu 0.915.
+EPOCH = 030/150, [time] = 1.94s, [Acc 4256-tr]:0.971, [avrg loss] = 0.1173964. [Accu 528-Val]:0.866. Best @ 013, with accu 0.915.
+EPOCH = 031/150, [time] = 1.96s, [Acc 4256-tr]:0.951, [avrg loss] = 0.1156865. [Accu 528-Val]:0.759. Best @ 013, with accu 0.915.
+EPOCH = 032/150, [time] = 1.93s, [Acc 4256-tr]:0.969, [avrg loss] = 0.1182808. [Accu 528-Val]:0.881. Best @ 013, with accu 0.915.
+EPOCH = 033/150, [time] = 1.92s, [Acc 4256-tr]:0.968, [avrg loss] = 0.1211431. [Accu 528-Val]:0.869. Best @ 013, with accu 0.915.
+EPOCH = 034/150, [time] = 1.91s, [Acc 4256-tr]:0.957, [avrg loss] = 0.1234303. [Accu 528-Val]:0.871. Best @ 013, with accu 0.915.
+EPOCH = 035/150, [time] = 1.94s, [Acc 4256-tr]:0.938, [avrg loss] = 0.1128675. [Accu 528-Val]:0.888. Best @ 013, with accu 0.915.
+EPOCH = 036/150, [time] = 1.98s, [Acc 4256-tr]:0.967, [avrg loss] = 0.1146272. [Accu 528-Val]:0.811. Best @ 013, with accu 0.915.
+EPOCH = 037/150, [time] = 1.99s, [Acc 4256-tr]:0.977, [avrg loss] = 0.1127449. [Accu 528-Val]:0.867. Best @ 013, with accu 0.915.
+EPOCH = 038/150, [time] = 1.93s, [Acc 4256-tr]:0.966, [avrg loss] = 0.1094037. [Accu 528-Val]:0.841. Best @ 013, with accu 0.915.
+EPOCH = 039/150, [time] = 1.90s, [Acc 4256-tr]:0.960, [avrg loss] = 0.0951216. [Accu 528-Val]:0.756. Best @ 013, with accu 0.915.
+EPOCH = 040/150, [time] = 1.95s, [Acc 4256-tr]:0.973, [avrg loss] = 0.1099926. [Accu 528-Val]:0.864. Best @ 013, with accu 0.915.
+EPOCH = 041/150, [time] = 1.85s, [Acc 4256-tr]:0.967, [avrg loss] = 0.1101590. [Accu 528-Val]:0.890. Best @ 013, with accu 0.915.
+EPOCH = 042/150, [time] = 2.00s, [Acc 4256-tr]:0.963, [avrg loss] = 0.1077076. [Accu 528-Val]:0.864. Best @ 013, with accu 0.915.
+EPOCH = 043/150, [time] = 1.95s, [Acc 4256-tr]:0.978, [avrg loss] = 0.1007844. [Accu 528-Val]:0.866. Best @ 013, with accu 0.915.
+EPOCH = 044/150, [time] = 2.00s, [Acc 4256-tr]:0.970, [avrg loss] = 0.1045115. [Accu 528-Val]:0.884. Best @ 013, with accu 0.915.
+EPOCH = 045/150, [time] = 1.95s, [Acc 4256-tr]:0.965, [avrg loss] = 0.1163325. [Accu 528-Val]:0.877. Best @ 013, with accu 0.915.
+EPOCH = 046/150, [time] = 1.94s, [Acc 4256-tr]:0.959, [avrg loss] = 0.1068748. [Accu 528-Val]:0.900. Best @ 013, with accu 0.915.
+EPOCH = 047/150, [time] = 1.97s, [Acc 4256-tr]:0.974, [avrg loss] = 0.1144656. [Accu 528-Val]:0.780. Best @ 013, with accu 0.915.
+EPOCH = 048/150, [time] = 1.93s, [Acc 4256-tr]:0.926, [avrg loss] = 0.1018418. [Accu 528-Val]:0.723. Best @ 013, with accu 0.915.
+EPOCH = 049/150, [time] = 1.91s, [Acc 4256-tr]:0.979, [avrg loss] = 0.1065563. [Accu 528-Val]:0.869. Best @ 013, with accu 0.915.
+EPOCH = 050/150, [time] = 1.93s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0852039. [Accu 528-Val]:0.818. Best @ 013, with accu 0.915.
+EPOCH = 051/150, [time] = 1.95s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0797293. [Accu 528-Val]:0.811. Best @ 013, with accu 0.915.
+EPOCH = 052/150, [time] = 1.98s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0782734. [Accu 528-Val]:0.811. Best @ 013, with accu 0.915.
+EPOCH = 053/150, [time] = 1.91s, [Acc 4256-tr]:0.981, [avrg loss] = 0.0772249. [Accu 528-Val]:0.824. Best @ 013, with accu 0.915.
+EPOCH = 054/150, [time] = 1.97s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0704528. [Accu 528-Val]:0.826. Best @ 013, with accu 0.915.
+EPOCH = 055/150, [time] = 1.93s, [Acc 4256-tr]:0.985, [avrg loss] = 0.0690337. [Accu 528-Val]:0.845. Best @ 013, with accu 0.915.
+EPOCH = 056/150, [time] = 1.92s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0833917. [Accu 528-Val]:0.814. Best @ 013, with accu 0.915.
+EPOCH = 057/150, [time] = 1.91s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0837526. [Accu 528-Val]:0.795. Best @ 013, with accu 0.915.
+EPOCH = 058/150, [time] = 1.97s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0675299. [Accu 528-Val]:0.824. Best @ 013, with accu 0.915.
+EPOCH = 059/150, [time] = 1.95s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0734587. [Accu 528-Val]:0.847. Best @ 013, with accu 0.915.
+EPOCH = 060/150, [time] = 1.82s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0665745. [Accu 528-Val]:0.843. Best @ 013, with accu 0.915.
+
+------ ******* ------ New Log ------ ******* ------
+isTrain: True
+net: MLP_CE_3
+isCNN: False
+isRandom: True
+exp_name: Task1_MLP_CE_3
+batch_size: 32
+epoch: 150
+milestones: [50, 100]
+lr: 0.001
+weight_decay: 0.0
+reweight: 1.0
+dir_root: ./data
+task: Task_1
+filename: data_1.mat
+save_dir: ./experiments
+MLP_CE_3(
+  (mlp): Sequential(
+    (0): Linear(in_features=779, out_features=32, bias=True)
+    (1): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): Linear(in_features=32, out_features=32, bias=True)
+    (4): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU()
+    (6): Linear(in_features=32, out_features=2, bias=True)
+  )
+)
+EPOCH = 000/150, [time] = 2.19s, [Acc 4256-tr]:0.870, [avrg loss] = 0.4633739. [Accu 528-Val]:0.856. Best @ 000, with accu 0.856.
+EPOCH = 001/150, [time] = 1.87s, [Acc 4256-tr]:0.896, [avrg loss] = 0.3080886. [Accu 528-Val]:0.881. Best @ 001, with accu 0.881.
+EPOCH = 002/150, [time] = 1.93s, [Acc 4256-tr]:0.710, [avrg loss] = 0.2763917. [Accu 528-Val]:0.426. Best @ 001, with accu 0.881.
+
+------ ******* ------ New Log ------ ******* ------
+isTrain: True
+net: MLP_CE_3
+isCNN: False
+isRandom: True
+exp_name: Task1_MLP_CE_3
+batch_size: 32
+epoch: 150
+milestones: [50, 100]
+lr: 0.001
+weight_decay: 0.0
+reweight: 1.0
+dir_root: ./data
+task: Task_1
+filename: data_1.mat
+save_dir: ./experiments
+MLP_CE_3(
+  (mlp): Sequential(
+    (0): Linear(in_features=779, out_features=16, bias=True)
+    (1): BatchNorm1d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): Linear(in_features=16, out_features=32, bias=True)
+    (4): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU()
+    (6): Linear(in_features=32, out_features=2, bias=True)
+  )
+)
+EPOCH = 000/150, [time] = 2.06s, [Acc 4256-tr]:0.801, [avrg loss] = 0.4567748. [Accu 528-Val]:0.845. Best @ 000, with accu 0.845.
+EPOCH = 001/150, [time] = 1.95s, [Acc 4256-tr]:0.887, [avrg loss] = 0.3358845. [Accu 528-Val]:0.930. Best @ 001, with accu 0.930.
+EPOCH = 002/150, [time] = 1.95s, [Acc 4256-tr]:0.874, [avrg loss] = 0.2751375. [Accu 528-Val]:0.894. Best @ 001, with accu 0.930.
+EPOCH = 003/150, [time] = 1.84s, [Acc 4256-tr]:0.914, [avrg loss] = 0.2595483. [Accu 528-Val]:0.902. Best @ 001, with accu 0.930.
+EPOCH = 004/150, [time] = 1.87s, [Acc 4256-tr]:0.895, [avrg loss] = 0.2365156. [Accu 528-Val]:0.879. Best @ 001, with accu 0.930.
+EPOCH = 005/150, [time] = 2.01s, [Acc 4256-tr]:0.915, [avrg loss] = 0.2112433. [Accu 528-Val]:0.888. Best @ 001, with accu 0.930.
+EPOCH = 006/150, [time] = 1.88s, [Acc 4256-tr]:0.849, [avrg loss] = 0.2015875. [Accu 528-Val]:0.841. Best @ 001, with accu 0.930.
+EPOCH = 007/150, [time] = 1.96s, [Acc 4256-tr]:0.883, [avrg loss] = 0.1956901. [Accu 528-Val]:0.841. Best @ 001, with accu 0.930.
+EPOCH = 008/150, [time] = 1.95s, [Acc 4256-tr]:0.943, [avrg loss] = 0.1849843. [Accu 528-Val]:0.875. Best @ 001, with accu 0.930.
+EPOCH = 009/150, [time] = 1.97s, [Acc 4256-tr]:0.935, [avrg loss] = 0.1947818. [Accu 528-Val]:0.841. Best @ 001, with accu 0.930.
+EPOCH = 010/150, [time] = 1.93s, [Acc 4256-tr]:0.909, [avrg loss] = 0.1794982. [Accu 528-Val]:0.886. Best @ 001, with accu 0.930.
+EPOCH = 011/150, [time] = 1.89s, [Acc 4256-tr]:0.904, [avrg loss] = 0.1643244. [Accu 528-Val]:0.833. Best @ 001, with accu 0.930.
+EPOCH = 012/150, [time] = 1.97s, [Acc 4256-tr]:0.947, [avrg loss] = 0.1633511. [Accu 528-Val]:0.860. Best @ 001, with accu 0.930.
+EPOCH = 013/150, [time] = 1.90s, [Acc 4256-tr]:0.875, [avrg loss] = 0.1708342. [Accu 528-Val]:0.818. Best @ 001, with accu 0.930.
+EPOCH = 014/150, [time] = 2.02s, [Acc 4256-tr]:0.905, [avrg loss] = 0.1728188. [Accu 528-Val]:0.661. Best @ 001, with accu 0.930.
+EPOCH = 015/150, [time] = 2.02s, [Acc 4256-tr]:0.955, [avrg loss] = 0.1551089. [Accu 528-Val]:0.866. Best @ 001, with accu 0.930.
+EPOCH = 016/150, [time] = 1.96s, [Acc 4256-tr]:0.961, [avrg loss] = 0.1512559. [Accu 528-Val]:0.820. Best @ 001, with accu 0.930.
+EPOCH = 017/150, [time] = 1.92s, [Acc 4256-tr]:0.953, [avrg loss] = 0.1389863. [Accu 528-Val]:0.862. Best @ 001, with accu 0.930.
+EPOCH = 018/150, [time] = 1.98s, [Acc 4256-tr]:0.910, [avrg loss] = 0.1501593. [Accu 528-Val]:0.744. Best @ 001, with accu 0.930.
+EPOCH = 019/150, [time] = 1.96s, [Acc 4256-tr]:0.939, [avrg loss] = 0.1474714. [Accu 528-Val]:0.877. Best @ 001, with accu 0.930.
+EPOCH = 020/150, [time] = 1.87s, [Acc 4256-tr]:0.947, [avrg loss] = 0.1404504. [Accu 528-Val]:0.826. Best @ 001, with accu 0.930.
+EPOCH = 021/150, [time] = 1.92s, [Acc 4256-tr]:0.961, [avrg loss] = 0.1340675. [Accu 528-Val]:0.811. Best @ 001, with accu 0.930.
+EPOCH = 022/150, [time] = 2.01s, [Acc 4256-tr]:0.955, [avrg loss] = 0.1352212. [Accu 528-Val]:0.828. Best @ 001, with accu 0.930.
+EPOCH = 023/150, [time] = 1.91s, [Acc 4256-tr]:0.964, [avrg loss] = 0.1326324. [Accu 528-Val]:0.864. Best @ 001, with accu 0.930.
+EPOCH = 024/150, [time] = 1.96s, [Acc 4256-tr]:0.926, [avrg loss] = 0.1271871. [Accu 528-Val]:0.831. Best @ 001, with accu 0.930.
+EPOCH = 025/150, [time] = 2.00s, [Acc 4256-tr]:0.953, [avrg loss] = 0.1225389. [Accu 528-Val]:0.856. Best @ 001, with accu 0.930.
+EPOCH = 026/150, [time] = 1.89s, [Acc 4256-tr]:0.958, [avrg loss] = 0.1297470. [Accu 528-Val]:0.847. Best @ 001, with accu 0.930.
+EPOCH = 027/150, [time] = 2.03s, [Acc 4256-tr]:0.948, [avrg loss] = 0.1212009. [Accu 528-Val]:0.875. Best @ 001, with accu 0.930.
+EPOCH = 028/150, [time] = 1.89s, [Acc 4256-tr]:0.936, [avrg loss] = 0.1266911. [Accu 528-Val]:0.866. Best @ 001, with accu 0.930.
+EPOCH = 029/150, [time] = 2.00s, [Acc 4256-tr]:0.956, [avrg loss] = 0.1179176. [Accu 528-Val]:0.843. Best @ 001, with accu 0.930.
+EPOCH = 030/150, [time] = 1.99s, [Acc 4256-tr]:0.943, [avrg loss] = 0.1209617. [Accu 528-Val]:0.867. Best @ 001, with accu 0.930.
+EPOCH = 031/150, [time] = 1.98s, [Acc 4256-tr]:0.950, [avrg loss] = 0.1233076. [Accu 528-Val]:0.871. Best @ 001, with accu 0.930.
+EPOCH = 032/150, [time] = 1.98s, [Acc 4256-tr]:0.966, [avrg loss] = 0.1167060. [Accu 528-Val]:0.818. Best @ 001, with accu 0.930.
+EPOCH = 033/150, [time] = 1.95s, [Acc 4256-tr]:0.974, [avrg loss] = 0.1081371. [Accu 528-Val]:0.845. Best @ 001, with accu 0.930.
+EPOCH = 034/150, [time] = 1.88s, [Acc 4256-tr]:0.966, [avrg loss] = 0.1140002. [Accu 528-Val]:0.869. Best @ 001, with accu 0.930.
+EPOCH = 035/150, [time] = 1.94s, [Acc 4256-tr]:0.972, [avrg loss] = 0.1173795. [Accu 528-Val]:0.797. Best @ 001, with accu 0.930.
+EPOCH = 036/150, [time] = 1.93s, [Acc 4256-tr]:0.967, [avrg loss] = 0.1086682. [Accu 528-Val]:0.843. Best @ 001, with accu 0.930.
+EPOCH = 037/150, [time] = 1.99s, [Acc 4256-tr]:0.969, [avrg loss] = 0.1092725. [Accu 528-Val]:0.854. Best @ 001, with accu 0.930.
+EPOCH = 038/150, [time] = 1.86s, [Acc 4256-tr]:0.952, [avrg loss] = 0.1103501. [Accu 528-Val]:0.873. Best @ 001, with accu 0.930.
+EPOCH = 039/150, [time] = 1.96s, [Acc 4256-tr]:0.963, [avrg loss] = 0.1142213. [Accu 528-Val]:0.818. Best @ 001, with accu 0.930.
+EPOCH = 040/150, [time] = 1.94s, [Acc 4256-tr]:0.966, [avrg loss] = 0.1081857. [Accu 528-Val]:0.858. Best @ 001, with accu 0.930.
+EPOCH = 041/150, [time] = 1.93s, [Acc 4256-tr]:0.971, [avrg loss] = 0.0972731. [Accu 528-Val]:0.837. Best @ 001, with accu 0.930.
+EPOCH = 042/150, [time] = 1.87s, [Acc 4256-tr]:0.965, [avrg loss] = 0.0954416. [Accu 528-Val]:0.746. Best @ 001, with accu 0.930.
+EPOCH = 043/150, [time] = 1.96s, [Acc 4256-tr]:0.956, [avrg loss] = 0.1011494. [Accu 528-Val]:0.767. Best @ 001, with accu 0.930.
+EPOCH = 044/150, [time] = 1.81s, [Acc 4256-tr]:0.945, [avrg loss] = 0.1078569. [Accu 528-Val]:0.848. Best @ 001, with accu 0.930.
+EPOCH = 045/150, [time] = 1.98s, [Acc 4256-tr]:0.961, [avrg loss] = 0.1090399. [Accu 528-Val]:0.784. Best @ 001, with accu 0.930.
+EPOCH = 046/150, [time] = 1.97s, [Acc 4256-tr]:0.907, [avrg loss] = 0.1145464. [Accu 528-Val]:0.631. Best @ 001, with accu 0.930.
+EPOCH = 047/150, [time] = 1.92s, [Acc 4256-tr]:0.930, [avrg loss] = 0.1045800. [Accu 528-Val]:0.848. Best @ 001, with accu 0.930.
+EPOCH = 048/150, [time] = 1.92s, [Acc 4256-tr]:0.934, [avrg loss] = 0.1055406. [Accu 528-Val]:0.773. Best @ 001, with accu 0.930.
+EPOCH = 049/150, [time] = 2.00s, [Acc 4256-tr]:0.955, [avrg loss] = 0.1036859. [Accu 528-Val]:0.833. Best @ 001, with accu 0.930.
+EPOCH = 050/150, [time] = 2.01s, [Acc 4256-tr]:0.981, [avrg loss] = 0.0913824. [Accu 528-Val]:0.848. Best @ 001, with accu 0.930.
+EPOCH = 051/150, [time] = 1.96s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0857637. [Accu 528-Val]:0.830. Best @ 001, with accu 0.930.
+EPOCH = 052/150, [time] = 2.00s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0772822. [Accu 528-Val]:0.820. Best @ 001, with accu 0.930.
+EPOCH = 053/150, [time] = 1.92s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0647896. [Accu 528-Val]:0.811. Best @ 001, with accu 0.930.
+EPOCH = 054/150, [time] = 1.93s, [Acc 4256-tr]:0.986, [avrg loss] = 0.0809853. [Accu 528-Val]:0.812. Best @ 001, with accu 0.930.
+EPOCH = 055/150, [time] = 1.93s, [Acc 4256-tr]:0.981, [avrg loss] = 0.0787640. [Accu 528-Val]:0.835. Best @ 001, with accu 0.930.
+EPOCH = 056/150, [time] = 1.91s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0707798. [Accu 528-Val]:0.818. Best @ 001, with accu 0.930.
+EPOCH = 057/150, [time] = 1.94s, [Acc 4256-tr]:0.981, [avrg loss] = 0.0777184. [Accu 528-Val]:0.830. Best @ 001, with accu 0.930.
+EPOCH = 058/150, [time] = 1.93s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0760564. [Accu 528-Val]:0.826. Best @ 001, with accu 0.930.
+EPOCH = 059/150, [time] = 1.89s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0675949. [Accu 528-Val]:0.831. Best @ 001, with accu 0.930.
+EPOCH = 060/150, [time] = 1.93s, [Acc 4256-tr]:0.985, [avrg loss] = 0.0780307. [Accu 528-Val]:0.811. Best @ 001, with accu 0.930.
+EPOCH = 061/150, [time] = 1.90s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0745614. [Accu 528-Val]:0.794. Best @ 001, with accu 0.930.
+EPOCH = 062/150, [time] = 1.90s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0763100. [Accu 528-Val]:0.805. Best @ 001, with accu 0.930.
+EPOCH = 063/150, [time] = 1.88s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0719892. [Accu 528-Val]:0.833. Best @ 001, with accu 0.930.
+EPOCH = 064/150, [time] = 1.89s, [Acc 4256-tr]:0.981, [avrg loss] = 0.0784841. [Accu 528-Val]:0.852. Best @ 001, with accu 0.930.
+EPOCH = 065/150, [time] = 2.00s, [Acc 4256-tr]:0.981, [avrg loss] = 0.0733471. [Accu 528-Val]:0.847. Best @ 001, with accu 0.930.
+EPOCH = 066/150, [time] = 1.96s, [Acc 4256-tr]:0.981, [avrg loss] = 0.0689756. [Accu 528-Val]:0.820. Best @ 001, with accu 0.930.
+EPOCH = 067/150, [time] = 1.96s, [Acc 4256-tr]:0.987, [avrg loss] = 0.0753987. [Accu 528-Val]:0.826. Best @ 001, with accu 0.930.
+EPOCH = 068/150, [time] = 1.88s, [Acc 4256-tr]:0.985, [avrg loss] = 0.0726385. [Accu 528-Val]:0.839. Best @ 001, with accu 0.930.
+EPOCH = 069/150, [time] = 1.94s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0687173. [Accu 528-Val]:0.835. Best @ 001, with accu 0.930.
+EPOCH = 070/150, [time] = 1.95s, [Acc 4256-tr]:0.986, [avrg loss] = 0.0833818. [Accu 528-Val]:0.843. Best @ 001, with accu 0.930.
+EPOCH = 071/150, [time] = 2.07s, [Acc 4256-tr]:0.987, [avrg loss] = 0.0726044. [Accu 528-Val]:0.833. Best @ 001, with accu 0.930.
+EPOCH = 072/150, [time] = 1.93s, [Acc 4256-tr]:0.980, [avrg loss] = 0.0713942. [Accu 528-Val]:0.828. Best @ 001, with accu 0.930.
+EPOCH = 073/150, [time] = 2.00s, [Acc 4256-tr]:0.986, [avrg loss] = 0.0719837. [Accu 528-Val]:0.801. Best @ 001, with accu 0.930.
+EPOCH = 074/150, [time] = 1.93s, [Acc 4256-tr]:0.985, [avrg loss] = 0.0610129. [Accu 528-Val]:0.830. Best @ 001, with accu 0.930.
+EPOCH = 075/150, [time] = 1.92s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0629868. [Accu 528-Val]:0.801. Best @ 001, with accu 0.930.
+EPOCH = 076/150, [time] = 1.96s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0646186. [Accu 528-Val]:0.833. Best @ 001, with accu 0.930.
+EPOCH = 077/150, [time] = 1.95s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0707650. [Accu 528-Val]:0.816. Best @ 001, with accu 0.930.
+EPOCH = 078/150, [time] = 1.97s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0724647. [Accu 528-Val]:0.841. Best @ 001, with accu 0.930.
+EPOCH = 079/150, [time] = 1.94s, [Acc 4256-tr]:0.980, [avrg loss] = 0.0824133. [Accu 528-Val]:0.841. Best @ 001, with accu 0.930.
+EPOCH = 080/150, [time] = 1.99s, [Acc 4256-tr]:0.987, [avrg loss] = 0.0711007. [Accu 528-Val]:0.864. Best @ 001, with accu 0.930.
+EPOCH = 081/150, [time] = 2.00s, [Acc 4256-tr]:0.987, [avrg loss] = 0.0745355. [Accu 528-Val]:0.795. Best @ 001, with accu 0.930.
+EPOCH = 082/150, [time] = 2.02s, [Acc 4256-tr]:0.977, [avrg loss] = 0.0729333. [Accu 528-Val]:0.862. Best @ 001, with accu 0.930.
+EPOCH = 083/150, [time] = 1.96s, [Acc 4256-tr]:0.985, [avrg loss] = 0.0672835. [Accu 528-Val]:0.850. Best @ 001, with accu 0.930.
+EPOCH = 084/150, [time] = 2.00s, [Acc 4256-tr]:0.986, [avrg loss] = 0.0598293. [Accu 528-Val]:0.835. Best @ 001, with accu 0.930.
+EPOCH = 085/150, [time] = 1.93s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0625610. [Accu 528-Val]:0.816. Best @ 001, with accu 0.930.
+EPOCH = 086/150, [time] = 1.95s, [Acc 4256-tr]:0.986, [avrg loss] = 0.0693704. [Accu 528-Val]:0.835. Best @ 001, with accu 0.930.
+EPOCH = 087/150, [time] = 1.85s, [Acc 4256-tr]:0.988, [avrg loss] = 0.0643900. [Accu 528-Val]:0.818. Best @ 001, with accu 0.930.
+EPOCH = 088/150, [time] = 1.91s, [Acc 4256-tr]:0.980, [avrg loss] = 0.0608022. [Accu 528-Val]:0.820. Best @ 001, with accu 0.930.
+EPOCH = 089/150, [time] = 1.98s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0640352. [Accu 528-Val]:0.782. Best @ 001, with accu 0.930.
+EPOCH = 090/150, [time] = 1.95s, [Acc 4256-tr]:0.987, [avrg loss] = 0.0687170. [Accu 528-Val]:0.830. Best @ 001, with accu 0.930.
+EPOCH = 091/150, [time] = 1.95s, [Acc 4256-tr]:0.986, [avrg loss] = 0.0636269. [Accu 528-Val]:0.797. Best @ 001, with accu 0.930.
+EPOCH = 092/150, [time] = 1.99s, [Acc 4256-tr]:0.977, [avrg loss] = 0.0669364. [Accu 528-Val]:0.807. Best @ 001, with accu 0.930.
+EPOCH = 093/150, [time] = 1.91s, [Acc 4256-tr]:0.985, [avrg loss] = 0.0609211. [Accu 528-Val]:0.841. Best @ 001, with accu 0.930.
+EPOCH = 094/150, [time] = 1.94s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0654753. [Accu 528-Val]:0.814. Best @ 001, with accu 0.930.
+EPOCH = 095/150, [time] = 1.92s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0707794. [Accu 528-Val]:0.820. Best @ 001, with accu 0.930.
+EPOCH = 096/150, [time] = 1.87s, [Acc 4256-tr]:0.981, [avrg loss] = 0.0634435. [Accu 528-Val]:0.778. Best @ 001, with accu 0.930.
+EPOCH = 097/150, [time] = 1.95s, [Acc 4256-tr]:0.989, [avrg loss] = 0.0506751. [Accu 528-Val]:0.820. Best @ 001, with accu 0.930.
+EPOCH = 098/150, [time] = 1.91s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0603875. [Accu 528-Val]:0.839. Best @ 001, with accu 0.930.
+EPOCH = 099/150, [time] = 1.97s, [Acc 4256-tr]:0.980, [avrg loss] = 0.0625928. [Accu 528-Val]:0.845. Best @ 001, with accu 0.930.
+EPOCH = 100/150, [time] = 1.89s, [Acc 4256-tr]:0.989, [avrg loss] = 0.0606993. [Accu 528-Val]:0.830. Best @ 001, with accu 0.930.
+EPOCH = 101/150, [time] = 1.94s, [Acc 4256-tr]:0.991, [avrg loss] = 0.0612920. [Accu 528-Val]:0.824. Best @ 001, with accu 0.930.
+EPOCH = 102/150, [time] = 1.93s, [Acc 4256-tr]:0.987, [avrg loss] = 0.0606120. [Accu 528-Val]:0.797. Best @ 001, with accu 0.930.
+EPOCH = 103/150, [time] = 1.93s, [Acc 4256-tr]:0.991, [avrg loss] = 0.0584810. [Accu 528-Val]:0.794. Best @ 001, with accu 0.930.
+EPOCH = 104/150, [time] = 1.88s, [Acc 4256-tr]:0.991, [avrg loss] = 0.0637023. [Accu 528-Val]:0.820. Best @ 001, with accu 0.930.
+EPOCH = 105/150, [time] = 2.03s, [Acc 4256-tr]:0.992, [avrg loss] = 0.0481331. [Accu 528-Val]:0.826. Best @ 001, with accu 0.930.
+EPOCH = 106/150, [time] = 1.93s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0620285. [Accu 528-Val]:0.820. Best @ 001, with accu 0.930.
+EPOCH = 107/150, [time] = 1.95s, [Acc 4256-tr]:0.991, [avrg loss] = 0.0538829. [Accu 528-Val]:0.826. Best @ 001, with accu 0.930.
+EPOCH = 108/150, [time] = 1.89s, [Acc 4256-tr]:0.988, [avrg loss] = 0.0507782. [Accu 528-Val]:0.795. Best @ 001, with accu 0.930.
+EPOCH = 109/150, [time] = 1.91s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0501722. [Accu 528-Val]:0.814. Best @ 001, with accu 0.930.
+EPOCH = 110/150, [time] = 1.93s, [Acc 4256-tr]:0.989, [avrg loss] = 0.0521374. [Accu 528-Val]:0.828. Best @ 001, with accu 0.930.
+EPOCH = 111/150, [time] = 1.89s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0559847. [Accu 528-Val]:0.807. Best @ 001, with accu 0.930.
+EPOCH = 112/150, [time] = 1.94s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0592743. [Accu 528-Val]:0.835. Best @ 001, with accu 0.930.
+EPOCH = 113/150, [time] = 1.95s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0551313. [Accu 528-Val]:0.831. Best @ 001, with accu 0.930.
+EPOCH = 114/150, [time] = 1.89s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0578012. [Accu 528-Val]:0.822. Best @ 001, with accu 0.930.
+EPOCH = 115/150, [time] = 1.89s, [Acc 4256-tr]:0.987, [avrg loss] = 0.0544717. [Accu 528-Val]:0.818. Best @ 001, with accu 0.930.
+EPOCH = 116/150, [time] = 2.06s, [Acc 4256-tr]:0.987, [avrg loss] = 0.0558171. [Accu 528-Val]:0.812. Best @ 001, with accu 0.930.
+EPOCH = 117/150, [time] = 1.90s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0520689. [Accu 528-Val]:0.822. Best @ 001, with accu 0.930.
+EPOCH = 118/150, [time] = 1.97s, [Acc 4256-tr]:0.991, [avrg loss] = 0.0595158. [Accu 528-Val]:0.812. Best @ 001, with accu 0.930.
+EPOCH = 119/150, [time] = 1.95s, [Acc 4256-tr]:0.992, [avrg loss] = 0.0483326. [Accu 528-Val]:0.822. Best @ 001, with accu 0.930.
+EPOCH = 120/150, [time] = 2.01s, [Acc 4256-tr]:0.988, [avrg loss] = 0.0595181. [Accu 528-Val]:0.809. Best @ 001, with accu 0.930.
+EPOCH = 121/150, [time] = 1.92s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0548958. [Accu 528-Val]:0.795. Best @ 001, with accu 0.930.
+EPOCH = 122/150, [time] = 2.04s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0564860. [Accu 528-Val]:0.826. Best @ 001, with accu 0.930.
+EPOCH = 123/150, [time] = 1.93s, [Acc 4256-tr]:0.989, [avrg loss] = 0.0547798. [Accu 528-Val]:0.811. Best @ 001, with accu 0.930.
+EPOCH = 124/150, [time] = 1.92s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0514405. [Accu 528-Val]:0.820. Best @ 001, with accu 0.930.
+EPOCH = 125/150, [time] = 1.88s, [Acc 4256-tr]:0.988, [avrg loss] = 0.0512951. [Accu 528-Val]:0.826. Best @ 001, with accu 0.930.
+EPOCH = 126/150, [time] = 1.92s, [Acc 4256-tr]:0.991, [avrg loss] = 0.0432819. [Accu 528-Val]:0.824. Best @ 001, with accu 0.930.
+EPOCH = 127/150, [time] = 1.92s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0534049. [Accu 528-Val]:0.816. Best @ 001, with accu 0.930.
+EPOCH = 128/150, [time] = 1.88s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0578105. [Accu 528-Val]:0.816. Best @ 001, with accu 0.930.
+EPOCH = 129/150, [time] = 1.92s, [Acc 4256-tr]:0.989, [avrg loss] = 0.0504147. [Accu 528-Val]:0.848. Best @ 001, with accu 0.930.
+EPOCH = 130/150, [time] = 1.99s, [Acc 4256-tr]:0.991, [avrg loss] = 0.0562441. [Accu 528-Val]:0.831. Best @ 001, with accu 0.930.
+EPOCH = 131/150, [time] = 1.90s, [Acc 4256-tr]:0.991, [avrg loss] = 0.0522395. [Accu 528-Val]:0.843. Best @ 001, with accu 0.930.
+EPOCH = 132/150, [time] = 1.91s, [Acc 4256-tr]:0.989, [avrg loss] = 0.0538179. [Accu 528-Val]:0.799. Best @ 001, with accu 0.930.
+EPOCH = 133/150, [time] = 1.95s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0545054. [Accu 528-Val]:0.831. Best @ 001, with accu 0.930.
+EPOCH = 134/150, [time] = 1.91s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0551587. [Accu 528-Val]:0.814. Best @ 001, with accu 0.930.
+EPOCH = 135/150, [time] = 1.95s, [Acc 4256-tr]:0.988, [avrg loss] = 0.0579996. [Accu 528-Val]:0.822. Best @ 001, with accu 0.930.
+EPOCH = 136/150, [time] = 1.96s, [Acc 4256-tr]:0.991, [avrg loss] = 0.0490859. [Accu 528-Val]:0.830. Best @ 001, with accu 0.930.
+EPOCH = 137/150, [time] = 1.90s, [Acc 4256-tr]:0.994, [avrg loss] = 0.0607363. [Accu 528-Val]:0.814. Best @ 001, with accu 0.930.
+EPOCH = 138/150, [time] = 1.93s, [Acc 4256-tr]:0.989, [avrg loss] = 0.0476073. [Accu 528-Val]:0.814. Best @ 001, with accu 0.930.
+EPOCH = 139/150, [time] = 1.89s, [Acc 4256-tr]:0.988, [avrg loss] = 0.0556977. [Accu 528-Val]:0.828. Best @ 001, with accu 0.930.
+EPOCH = 140/150, [time] = 1.94s, [Acc 4256-tr]:0.989, [avrg loss] = 0.0467175. [Accu 528-Val]:0.837. Best @ 001, with accu 0.930.
+EPOCH = 141/150, [time] = 1.90s, [Acc 4256-tr]:0.989, [avrg loss] = 0.0557602. [Accu 528-Val]:0.824. Best @ 001, with accu 0.930.
+EPOCH = 142/150, [time] = 1.91s, [Acc 4256-tr]:0.991, [avrg loss] = 0.0445439. [Accu 528-Val]:0.824. Best @ 001, with accu 0.930.
+EPOCH = 143/150, [time] = 1.95s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0485280. [Accu 528-Val]:0.811. Best @ 001, with accu 0.930.
+EPOCH = 144/150, [time] = 1.97s, [Acc 4256-tr]:0.986, [avrg loss] = 0.0538106. [Accu 528-Val]:0.828. Best @ 001, with accu 0.930.
+EPOCH = 145/150, [time] = 1.97s, [Acc 4256-tr]:0.991, [avrg loss] = 0.0495373. [Accu 528-Val]:0.799. Best @ 001, with accu 0.930.
+EPOCH = 146/150, [time] = 1.94s, [Acc 4256-tr]:0.989, [avrg loss] = 0.0510796. [Accu 528-Val]:0.811. Best @ 001, with accu 0.930.
+EPOCH = 147/150, [time] = 1.86s, [Acc 4256-tr]:0.989, [avrg loss] = 0.0558074. [Accu 528-Val]:0.818. Best @ 001, with accu 0.930.
+EPOCH = 148/150, [time] = 1.91s, [Acc 4256-tr]:0.991, [avrg loss] = 0.0589277. [Accu 528-Val]:0.830. Best @ 001, with accu 0.930.
+EPOCH = 149/150, [time] = 1.92s, [Acc 4256-tr]:0.991, [avrg loss] = 0.0464441. [Accu 528-Val]:0.816. Best @ 001, with accu 0.930.
+
+------ ******* ------ New Log ------ ******* ------
+isTrain: True
+net: MLP_CE_3
+isCNN: False
+isRandom: True
+exp_name: Task1_MLP_CE_3
+batch_size: 32
+epoch: 150
+milestones: [50, 100]
+lr: 0.001
+weight_decay: 0.0
+reweight: 1.0
+dir_root: ./data
+task: Task_1
+filename: data_1.mat
+save_dir: ./experiments
+MLP_CE_3(
+  (mlp): Sequential(
+    (0): Linear(in_features=779, out_features=16, bias=True)
+    (1): BatchNorm1d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): Linear(in_features=16, out_features=32, bias=True)
+    (4): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU()
+    (6): Linear(in_features=32, out_features=2, bias=True)
+  )
+)
+EPOCH = 000/150, [time] = 2.01s, [Acc 4256-tr]:0.940, [avrg loss] = 0.3690908. [Accu 528-Val]:0.905. Best @ 000, with accu 0.905.
+EPOCH = 001/150, [time] = 1.95s, [Acc 4256-tr]:0.943, [avrg loss] = 0.1450963. [Accu 528-Val]:0.828. Best @ 000, with accu 0.905.
+EPOCH = 002/150, [time] = 1.90s, [Acc 4256-tr]:0.961, [avrg loss] = 0.1077573. [Accu 528-Val]:0.867. Best @ 000, with accu 0.905.
+EPOCH = 003/150, [time] = 1.87s, [Acc 4256-tr]:0.957, [avrg loss] = 0.0866598. [Accu 528-Val]:0.932. Best @ 003, with accu 0.932.
+EPOCH = 004/150, [time] = 1.92s, [Acc 4256-tr]:0.942, [avrg loss] = 0.0812560. [Accu 528-Val]:0.841. Best @ 003, with accu 0.932.
+EPOCH = 005/150, [time] = 1.93s, [Acc 4256-tr]:0.972, [avrg loss] = 0.0716204. [Accu 528-Val]:0.875. Best @ 003, with accu 0.932.
+EPOCH = 006/150, [time] = 1.86s, [Acc 4256-tr]:0.941, [avrg loss] = 0.0624525. [Accu 528-Val]:0.839. Best @ 003, with accu 0.932.
+EPOCH = 007/150, [time] = 1.88s, [Acc 4256-tr]:0.953, [avrg loss] = 0.0549578. [Accu 528-Val]:0.894. Best @ 003, with accu 0.932.
+EPOCH = 008/150, [time] = 1.92s, [Acc 4256-tr]:0.991, [avrg loss] = 0.0422882. [Accu 528-Val]:0.814. Best @ 003, with accu 0.932.
+EPOCH = 009/150, [time] = 1.91s, [Acc 4256-tr]:0.960, [avrg loss] = 0.0413789. [Accu 528-Val]:0.883. Best @ 003, with accu 0.932.
+EPOCH = 010/150, [time] = 1.93s, [Acc 4256-tr]:0.986, [avrg loss] = 0.0411487. [Accu 528-Val]:0.884. Best @ 003, with accu 0.932.
+EPOCH = 011/150, [time] = 1.91s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0361263. [Accu 528-Val]:0.913. Best @ 003, with accu 0.932.
+EPOCH = 012/150, [time] = 1.94s, [Acc 4256-tr]:0.990, [avrg loss] = 0.0310209. [Accu 528-Val]:0.913. Best @ 003, with accu 0.932.
+EPOCH = 013/150, [time] = 1.86s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0278294. [Accu 528-Val]:0.873. Best @ 003, with accu 0.932.
+EPOCH = 014/150, [time] = 1.95s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0294254. [Accu 528-Val]:0.864. Best @ 003, with accu 0.932.
+EPOCH = 015/150, [time] = 2.00s, [Acc 4256-tr]:0.987, [avrg loss] = 0.0263669. [Accu 528-Val]:0.902. Best @ 003, with accu 0.932.
+EPOCH = 016/150, [time] = 1.91s, [Acc 4256-tr]:0.975, [avrg loss] = 0.0248407. [Accu 528-Val]:0.725. Best @ 003, with accu 0.932.
+EPOCH = 017/150, [time] = 1.97s, [Acc 4256-tr]:0.995, [avrg loss] = 0.0209269. [Accu 528-Val]:0.828. Best @ 003, with accu 0.932.
+EPOCH = 018/150, [time] = 1.94s, [Acc 4256-tr]:0.988, [avrg loss] = 0.0198163. [Accu 528-Val]:0.909. Best @ 003, with accu 0.932.
+EPOCH = 019/150, [time] = 1.95s, [Acc 4256-tr]:0.909, [avrg loss] = 0.0165716. [Accu 528-Val]:0.689. Best @ 003, with accu 0.932.
+EPOCH = 020/150, [time] = 1.91s, [Acc 4256-tr]:0.993, [avrg loss] = 0.0166643. [Accu 528-Val]:0.860. Best @ 003, with accu 0.932.
+EPOCH = 021/150, [time] = 1.91s, [Acc 4256-tr]:0.998, [avrg loss] = 0.0181455. [Accu 528-Val]:0.856. Best @ 003, with accu 0.932.
+EPOCH = 022/150, [time] = 1.98s, [Acc 4256-tr]:0.964, [avrg loss] = 0.0120860. [Accu 528-Val]:0.886. Best @ 003, with accu 0.932.
+EPOCH = 023/150, [time] = 1.96s, [Acc 4256-tr]:0.860, [avrg loss] = 0.0147998. [Accu 528-Val]:0.574. Best @ 003, with accu 0.932.
+EPOCH = 024/150, [time] = 1.92s, [Acc 4256-tr]:0.995, [avrg loss] = 0.0187881. [Accu 528-Val]:0.900. Best @ 003, with accu 0.932.
+EPOCH = 025/150, [time] = 1.89s, [Acc 4256-tr]:0.972, [avrg loss] = 0.0160562. [Accu 528-Val]:0.788. Best @ 003, with accu 0.932.
+EPOCH = 026/150, [time] = 1.97s, [Acc 4256-tr]:0.987, [avrg loss] = 0.0133781. [Accu 528-Val]:0.778. Best @ 003, with accu 0.932.
+EPOCH = 027/150, [time] = 1.93s, [Acc 4256-tr]:0.953, [avrg loss] = 0.0133444. [Accu 528-Val]:0.691. Best @ 003, with accu 0.932.
+EPOCH = 028/150, [time] = 1.91s, [Acc 4256-tr]:0.978, [avrg loss] = 0.0150766. [Accu 528-Val]:0.811. Best @ 003, with accu 0.932.
+EPOCH = 029/150, [time] = 1.92s, [Acc 4256-tr]:0.999, [avrg loss] = 0.0124246. [Accu 528-Val]:0.873. Best @ 003, with accu 0.932.
+EPOCH = 030/150, [time] = 2.03s, [Acc 4256-tr]:0.998, [avrg loss] = 0.0064680. [Accu 528-Val]:0.881. Best @ 003, with accu 0.932.
+EPOCH = 031/150, [time] = 1.84s, [Acc 4256-tr]:0.991, [avrg loss] = 0.0190964. [Accu 528-Val]:0.850. Best @ 003, with accu 0.932.
+EPOCH = 032/150, [time] = 1.90s, [Acc 4256-tr]:0.989, [avrg loss] = 0.0211599. [Accu 528-Val]:0.907. Best @ 003, with accu 0.932.
+EPOCH = 033/150, [time] = 1.92s, [Acc 4256-tr]:0.968, [avrg loss] = 0.0099576. [Accu 528-Val]:0.765. Best @ 003, with accu 0.932.
+EPOCH = 034/150, [time] = 1.96s, [Acc 4256-tr]:0.991, [avrg loss] = 0.0092700. [Accu 528-Val]:0.909. Best @ 003, with accu 0.932.
+EPOCH = 035/150, [time] = 1.95s, [Acc 4256-tr]:0.993, [avrg loss] = 0.0047325. [Accu 528-Val]:0.812. Best @ 003, with accu 0.932.
+EPOCH = 036/150, [time] = 1.88s, [Acc 4256-tr]:0.973, [avrg loss] = 0.0131390. [Accu 528-Val]:0.883. Best @ 003, with accu 0.932.
+EPOCH = 037/150, [time] = 1.88s, [Acc 4256-tr]:0.997, [avrg loss] = 0.0167161. [Accu 528-Val]:0.879. Best @ 003, with accu 0.932.
+EPOCH = 038/150, [time] = 2.03s, [Acc 4256-tr]:0.999, [avrg loss] = 0.0080964. [Accu 528-Val]:0.864. Best @ 003, with accu 0.932.
+EPOCH = 039/150, [time] = 1.89s, [Acc 4256-tr]:0.987, [avrg loss] = 0.0076267. [Accu 528-Val]:0.814. Best @ 003, with accu 0.932.
+EPOCH = 040/150, [time] = 1.95s, [Acc 4256-tr]:0.998, [avrg loss] = 0.0086095. [Accu 528-Val]:0.894. Best @ 003, with accu 0.932.
+EPOCH = 041/150, [time] = 1.91s, [Acc 4256-tr]:0.996, [avrg loss] = 0.0040950. [Accu 528-Val]:0.905. Best @ 003, with accu 0.932.
+EPOCH = 042/150, [time] = 1.96s, [Acc 4256-tr]:0.998, [avrg loss] = 0.0061200. [Accu 528-Val]:0.881. Best @ 003, with accu 0.932.
+EPOCH = 043/150, [time] = 1.96s, [Acc 4256-tr]:0.994, [avrg loss] = 0.0096027. [Accu 528-Val]:0.852. Best @ 003, with accu 0.932.
+EPOCH = 044/150, [time] = 1.92s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0058684. [Accu 528-Val]:0.814. Best @ 003, with accu 0.932.
+EPOCH = 045/150, [time] = 1.94s, [Acc 4256-tr]:0.956, [avrg loss] = 0.0091010. [Accu 528-Val]:0.775. Best @ 003, with accu 0.932.
+EPOCH = 046/150, [time] = 1.93s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0111913. [Accu 528-Val]:0.907. Best @ 003, with accu 0.932.
+EPOCH = 047/150, [time] = 1.90s, [Acc 4256-tr]:0.999, [avrg loss] = 0.0068401. [Accu 528-Val]:0.864. Best @ 003, with accu 0.932.
+EPOCH = 048/150, [time] = 1.87s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0047240. [Accu 528-Val]:0.824. Best @ 003, with accu 0.932.
+EPOCH = 049/150, [time] = 1.78s, [Acc 4256-tr]:0.999, [avrg loss] = 0.0076112. [Accu 528-Val]:0.811. Best @ 003, with accu 0.932.
+EPOCH = 050/150, [time] = 2.00s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0063367. [Accu 528-Val]:0.820. Best @ 003, with accu 0.932.
+EPOCH = 051/150, [time] = 2.02s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0038970. [Accu 528-Val]:0.828. Best @ 003, with accu 0.932.
+EPOCH = 052/150, [time] = 1.96s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0023266. [Accu 528-Val]:0.845. Best @ 003, with accu 0.932.
+EPOCH = 053/150, [time] = 1.96s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0029663. [Accu 528-Val]:0.850. Best @ 003, with accu 0.932.
+EPOCH = 054/150, [time] = 1.89s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0023346. [Accu 528-Val]:0.845. Best @ 003, with accu 0.932.
+EPOCH = 055/150, [time] = 1.90s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0030092. [Accu 528-Val]:0.839. Best @ 003, with accu 0.932.
+EPOCH = 056/150, [time] = 1.96s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0022852. [Accu 528-Val]:0.835. Best @ 003, with accu 0.932.
+EPOCH = 057/150, [time] = 2.07s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0032438. [Accu 528-Val]:0.847. Best @ 003, with accu 0.932.
+EPOCH = 058/150, [time] = 1.89s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0044785. [Accu 528-Val]:0.841. Best @ 003, with accu 0.932.
+EPOCH = 059/150, [time] = 1.96s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0022257. [Accu 528-Val]:0.845. Best @ 003, with accu 0.932.
+EPOCH = 060/150, [time] = 1.92s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0022787. [Accu 528-Val]:0.862. Best @ 003, with accu 0.932.
+EPOCH = 061/150, [time] = 2.00s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0021050. [Accu 528-Val]:0.850. Best @ 003, with accu 0.932.
+EPOCH = 062/150, [time] = 1.92s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0019328. [Accu 528-Val]:0.841. Best @ 003, with accu 0.932.
+EPOCH = 063/150, [time] = 1.96s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0016975. [Accu 528-Val]:0.848. Best @ 003, with accu 0.932.
+EPOCH = 064/150, [time] = 1.92s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0009824. [Accu 528-Val]:0.847. Best @ 003, with accu 0.932.
+EPOCH = 065/150, [time] = 1.88s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0022790. [Accu 528-Val]:0.848. Best @ 003, with accu 0.932.
+EPOCH = 066/150, [time] = 1.91s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0017946. [Accu 528-Val]:0.847. Best @ 003, with accu 0.932.
+EPOCH = 067/150, [time] = 1.97s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0023080. [Accu 528-Val]:0.826. Best @ 003, with accu 0.932.
+EPOCH = 068/150, [time] = 1.92s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0023081. [Accu 528-Val]:0.837. Best @ 003, with accu 0.932.
+EPOCH = 069/150, [time] = 1.94s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0015360. [Accu 528-Val]:0.850. Best @ 003, with accu 0.932.
+EPOCH = 070/150, [time] = 1.93s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0010426. [Accu 528-Val]:0.841. Best @ 003, with accu 0.932.
+EPOCH = 071/150, [time] = 1.93s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0023382. [Accu 528-Val]:0.847. Best @ 003, with accu 0.932.
+EPOCH = 072/150, [time] = 1.99s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0019278. [Accu 528-Val]:0.852. Best @ 003, with accu 0.932.
+EPOCH = 073/150, [time] = 1.97s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0012762. [Accu 528-Val]:0.839. Best @ 003, with accu 0.932.
+EPOCH = 074/150, [time] = 1.95s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0010643. [Accu 528-Val]:0.835. Best @ 003, with accu 0.932.
+EPOCH = 075/150, [time] = 1.92s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0014376. [Accu 528-Val]:0.822. Best @ 003, with accu 0.932.
+EPOCH = 076/150, [time] = 1.95s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0013148. [Accu 528-Val]:0.869. Best @ 003, with accu 0.932.
+EPOCH = 077/150, [time] = 1.95s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0018415. [Accu 528-Val]:0.824. Best @ 003, with accu 0.932.
+EPOCH = 078/150, [time] = 1.93s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0021815. [Accu 528-Val]:0.826. Best @ 003, with accu 0.932.
+EPOCH = 079/150, [time] = 1.90s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0009407. [Accu 528-Val]:0.837. Best @ 003, with accu 0.932.
+EPOCH = 080/150, [time] = 1.90s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0010259. [Accu 528-Val]:0.830. Best @ 003, with accu 0.932.
+EPOCH = 081/150, [time] = 1.94s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0011683. [Accu 528-Val]:0.822. Best @ 003, with accu 0.932.
+EPOCH = 082/150, [time] = 1.97s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0019981. [Accu 528-Val]:0.850. Best @ 003, with accu 0.932.
+EPOCH = 083/150, [time] = 1.93s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0012677. [Accu 528-Val]:0.847. Best @ 003, with accu 0.932.
+EPOCH = 084/150, [time] = 1.93s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0011470. [Accu 528-Val]:0.841. Best @ 003, with accu 0.932.
+EPOCH = 085/150, [time] = 1.93s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0016983. [Accu 528-Val]:0.854. Best @ 003, with accu 0.932.
+EPOCH = 086/150, [time] = 1.95s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0005896. [Accu 528-Val]:0.841. Best @ 003, with accu 0.932.
+EPOCH = 087/150, [time] = 1.92s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0007190. [Accu 528-Val]:0.847. Best @ 003, with accu 0.932.
+EPOCH = 088/150, [time] = 1.90s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0017764. [Accu 528-Val]:0.837. Best @ 003, with accu 0.932.
+EPOCH = 089/150, [time] = 1.88s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0013642. [Accu 528-Val]:0.847. Best @ 003, with accu 0.932.
+EPOCH = 090/150, [time] = 1.91s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0023445. [Accu 528-Val]:0.830. Best @ 003, with accu 0.932.
+EPOCH = 091/150, [time] = 1.90s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0014034. [Accu 528-Val]:0.848. Best @ 003, with accu 0.932.
+EPOCH = 092/150, [time] = 1.95s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0009730. [Accu 528-Val]:0.826. Best @ 003, with accu 0.932.
+EPOCH = 093/150, [time] = 1.95s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0004867. [Accu 528-Val]:0.843. Best @ 003, with accu 0.932.
+EPOCH = 094/150, [time] = 1.97s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0017432. [Accu 528-Val]:0.841. Best @ 003, with accu 0.932.
+EPOCH = 095/150, [time] = 2.02s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0034944. [Accu 528-Val]:0.847. Best @ 003, with accu 0.932.
+EPOCH = 096/150, [time] = 1.91s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0006749. [Accu 528-Val]:0.856. Best @ 003, with accu 0.932.
+EPOCH = 097/150, [time] = 1.96s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0023243. [Accu 528-Val]:0.831. Best @ 003, with accu 0.932.
+EPOCH = 098/150, [time] = 1.94s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0012450. [Accu 528-Val]:0.845. Best @ 003, with accu 0.932.
+EPOCH = 099/150, [time] = 1.87s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0024309. [Accu 528-Val]:0.862. Best @ 003, with accu 0.932.
+EPOCH = 100/150, [time] = 1.92s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0007898. [Accu 528-Val]:0.856. Best @ 003, with accu 0.932.
+EPOCH = 101/150, [time] = 1.91s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0006132. [Accu 528-Val]:0.847. Best @ 003, with accu 0.932.
+EPOCH = 102/150, [time] = 1.94s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0007269. [Accu 528-Val]:0.854. Best @ 003, with accu 0.932.
+EPOCH = 103/150, [time] = 1.91s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0013488. [Accu 528-Val]:0.854. Best @ 003, with accu 0.932.
+EPOCH = 104/150, [time] = 1.92s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0007146. [Accu 528-Val]:0.847. Best @ 003, with accu 0.932.
+EPOCH = 105/150, [time] = 1.91s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0012081. [Accu 528-Val]:0.860. Best @ 003, with accu 0.932.
+EPOCH = 106/150, [time] = 1.89s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0004400. [Accu 528-Val]:0.854. Best @ 003, with accu 0.932.
+EPOCH = 107/150, [time] = 1.97s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0008490. [Accu 528-Val]:0.852. Best @ 003, with accu 0.932.
+EPOCH = 108/150, [time] = 1.96s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0006926. [Accu 528-Val]:0.852. Best @ 003, with accu 0.932.
+EPOCH = 109/150, [time] = 1.92s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0004237. [Accu 528-Val]:0.847. Best @ 003, with accu 0.932.
+EPOCH = 110/150, [time] = 1.99s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0003258. [Accu 528-Val]:0.848. Best @ 003, with accu 0.932.
+EPOCH = 111/150, [time] = 1.95s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0016186. [Accu 528-Val]:0.839. Best @ 003, with accu 0.932.
+EPOCH = 112/150, [time] = 1.98s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0006702. [Accu 528-Val]:0.856. Best @ 003, with accu 0.932.
+EPOCH = 113/150, [time] = 1.93s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0007102. [Accu 528-Val]:0.841. Best @ 003, with accu 0.932.
+EPOCH = 114/150, [time] = 1.93s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0004581. [Accu 528-Val]:0.862. Best @ 003, with accu 0.932.
+EPOCH = 115/150, [time] = 1.93s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0014483. [Accu 528-Val]:0.835. Best @ 003, with accu 0.932.
+EPOCH = 116/150, [time] = 1.88s, [Acc 4256-tr]:1.000, [avrg loss] = 0.0012668. [Accu 528-Val]:0.848. Best @ 003, with accu 0.932.
+
+------ ******* ------ New Log ------ ******* ------
+isTrain: True
+net: MLP_CE_3
+isCNN: False
+isRandom: True
+exp_name: Task1_MLP_CE_3
+batch_size: 32
+epoch: 150
+milestones: [50, 100]
+lr: 0.001
+weight_decay: 0.0
+reweight: 1.0
+dir_root: ./data
+task: Task_1
+filename: data_1.mat
+save_dir: ./experiments
+
+------ ******* ------ New Log ------ ******* ------
+isTrain: True
+net: MLP_CE_3
+isCNN: False
+isRandom: True
+exp_name: Task1_MLP_CE_3
+batch_size: 32
+epoch: 150
+milestones: [50, 100]
+lr: 0.001
+weight_decay: 0.0
+reweight: 1.0
+dir_root: ./data
+task: Task_1
+filename: data_1.mat
+save_dir: ./experiments
+MLP_CE_3(
+  (mlp): Sequential(
+    (0): Linear(in_features=779, out_features=16, bias=True)
+    (1): BatchNorm1d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): Linear(in_features=16, out_features=32, bias=True)
+    (4): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU()
+    (6): Linear(in_features=32, out_features=2, bias=True)
+  )
+)
+EPOCH = 000/150, [time] = 2.16s, [Acc 4256-tr]:0.801, [avrg loss] = 0.5004558. [Accu 528-Val]:0.919. Best @ 000, with accu 0.919.
+EPOCH = 001/150, [time] = 1.97s, [Acc 4256-tr]:0.829, [avrg loss] = 0.3863610. [Accu 528-Val]:0.867. Best @ 000, with accu 0.919.
+EPOCH = 002/150, [time] = 1.85s, [Acc 4256-tr]:0.877, [avrg loss] = 0.3300196. [Accu 528-Val]:0.928. Best @ 002, with accu 0.928.
+EPOCH = 003/150, [time] = 1.88s, [Acc 4256-tr]:0.889, [avrg loss] = 0.3039907. [Accu 528-Val]:0.881. Best @ 002, with accu 0.928.
+EPOCH = 004/150, [time] = 1.87s, [Acc 4256-tr]:0.890, [avrg loss] = 0.2727429. [Accu 528-Val]:0.917. Best @ 002, with accu 0.928.
+EPOCH = 005/150, [time] = 1.92s, [Acc 4256-tr]:0.914, [avrg loss] = 0.2814026. [Accu 528-Val]:0.926. Best @ 002, with accu 0.928.
+EPOCH = 006/150, [time] = 1.99s, [Acc 4256-tr]:0.896, [avrg loss] = 0.2510685. [Accu 528-Val]:0.718. Best @ 002, with accu 0.928.
+EPOCH = 007/150, [time] = 2.07s, [Acc 4256-tr]:0.880, [avrg loss] = 0.2443628. [Accu 528-Val]:0.900. Best @ 002, with accu 0.928.
+EPOCH = 008/150, [time] = 1.94s, [Acc 4256-tr]:0.925, [avrg loss] = 0.2354376. [Accu 528-Val]:0.847. Best @ 002, with accu 0.928.
+EPOCH = 009/150, [time] = 1.91s, [Acc 4256-tr]:0.906, [avrg loss] = 0.2192575. [Accu 528-Val]:0.903. Best @ 002, with accu 0.928.
+EPOCH = 010/150, [time] = 2.02s, [Acc 4256-tr]:0.909, [avrg loss] = 0.2082722. [Accu 528-Val]:0.795. Best @ 002, with accu 0.928.
+EPOCH = 011/150, [time] = 1.88s, [Acc 4256-tr]:0.912, [avrg loss] = 0.2074812. [Accu 528-Val]:0.902. Best @ 002, with accu 0.928.
+EPOCH = 012/150, [time] = 1.90s, [Acc 4256-tr]:0.934, [avrg loss] = 0.1919442. [Accu 528-Val]:0.898. Best @ 002, with accu 0.928.
+EPOCH = 013/150, [time] = 1.94s, [Acc 4256-tr]:0.931, [avrg loss] = 0.1961543. [Accu 528-Val]:0.812. Best @ 002, with accu 0.928.
+EPOCH = 014/150, [time] = 1.85s, [Acc 4256-tr]:0.866, [avrg loss] = 0.1964125. [Accu 528-Val]:0.909. Best @ 002, with accu 0.928.
+EPOCH = 015/150, [time] = 1.89s, [Acc 4256-tr]:0.924, [avrg loss] = 0.1817135. [Accu 528-Val]:0.902. Best @ 002, with accu 0.928.
+EPOCH = 016/150, [time] = 2.00s, [Acc 4256-tr]:0.892, [avrg loss] = 0.1814368. [Accu 528-Val]:0.729. Best @ 002, with accu 0.928.
+EPOCH = 017/150, [time] = 1.91s, [Acc 4256-tr]:0.900, [avrg loss] = 0.1747451. [Accu 528-Val]:0.871. Best @ 002, with accu 0.928.
+EPOCH = 018/150, [time] = 1.92s, [Acc 4256-tr]:0.940, [avrg loss] = 0.1695877. [Accu 528-Val]:0.777. Best @ 002, with accu 0.928.
+EPOCH = 019/150, [time] = 1.95s, [Acc 4256-tr]:0.945, [avrg loss] = 0.1716649. [Accu 528-Val]:0.761. Best @ 002, with accu 0.928.
+EPOCH = 020/150, [time] = 1.94s, [Acc 4256-tr]:0.947, [avrg loss] = 0.1555012. [Accu 528-Val]:0.848. Best @ 002, with accu 0.928.
+EPOCH = 021/150, [time] = 1.99s, [Acc 4256-tr]:0.888, [avrg loss] = 0.1570524. [Accu 528-Val]:0.530. Best @ 002, with accu 0.928.
+EPOCH = 022/150, [time] = 1.93s, [Acc 4256-tr]:0.961, [avrg loss] = 0.1644777. [Accu 528-Val]:0.873. Best @ 002, with accu 0.928.
+EPOCH = 023/150, [time] = 1.95s, [Acc 4256-tr]:0.910, [avrg loss] = 0.1600036. [Accu 528-Val]:0.911. Best @ 002, with accu 0.928.
+EPOCH = 024/150, [time] = 1.92s, [Acc 4256-tr]:0.924, [avrg loss] = 0.1506945. [Accu 528-Val]:0.909. Best @ 002, with accu 0.928.
+EPOCH = 025/150, [time] = 1.93s, [Acc 4256-tr]:0.947, [avrg loss] = 0.1605945. [Accu 528-Val]:0.902. Best @ 002, with accu 0.928.
+EPOCH = 026/150, [time] = 1.87s, [Acc 4256-tr]:0.948, [avrg loss] = 0.1573113. [Accu 528-Val]:0.888. Best @ 002, with accu 0.928.
+EPOCH = 027/150, [time] = 1.91s, [Acc 4256-tr]:0.934, [avrg loss] = 0.1517737. [Accu 528-Val]:0.854. Best @ 002, with accu 0.928.
+EPOCH = 028/150, [time] = 2.00s, [Acc 4256-tr]:0.942, [avrg loss] = 0.1514119. [Accu 528-Val]:0.886. Best @ 002, with accu 0.928.
+EPOCH = 029/150, [time] = 1.98s, [Acc 4256-tr]:0.948, [avrg loss] = 0.1369559. [Accu 528-Val]:0.877. Best @ 002, with accu 0.928.
+EPOCH = 030/150, [time] = 2.00s, [Acc 4256-tr]:0.818, [avrg loss] = 0.1283758. [Accu 528-Val]:0.888. Best @ 002, with accu 0.928.
+EPOCH = 031/150, [time] = 1.98s, [Acc 4256-tr]:0.952, [avrg loss] = 0.1311878. [Accu 528-Val]:0.794. Best @ 002, with accu 0.928.
+EPOCH = 032/150, [time] = 1.99s, [Acc 4256-tr]:0.876, [avrg loss] = 0.1320943. [Accu 528-Val]:0.631. Best @ 002, with accu 0.928.
+EPOCH = 033/150, [time] = 1.86s, [Acc 4256-tr]:0.906, [avrg loss] = 0.1494634. [Accu 528-Val]:0.888. Best @ 002, with accu 0.928.
+EPOCH = 034/150, [time] = 1.92s, [Acc 4256-tr]:0.941, [avrg loss] = 0.1294434. [Accu 528-Val]:0.877. Best @ 002, with accu 0.928.
+EPOCH = 035/150, [time] = 1.92s, [Acc 4256-tr]:0.951, [avrg loss] = 0.1310921. [Accu 528-Val]:0.795. Best @ 002, with accu 0.928.
+EPOCH = 036/150, [time] = 2.04s, [Acc 4256-tr]:0.853, [avrg loss] = 0.1264225. [Accu 528-Val]:0.788. Best @ 002, with accu 0.928.
+EPOCH = 037/150, [time] = 1.94s, [Acc 4256-tr]:0.958, [avrg loss] = 0.1347341. [Accu 528-Val]:0.771. Best @ 002, with accu 0.928.
+EPOCH = 038/150, [time] = 1.87s, [Acc 4256-tr]:0.965, [avrg loss] = 0.1206608. [Accu 528-Val]:0.854. Best @ 002, with accu 0.928.
+EPOCH = 039/150, [time] = 1.90s, [Acc 4256-tr]:0.961, [avrg loss] = 0.1306080. [Accu 528-Val]:0.883. Best @ 002, with accu 0.928.
+EPOCH = 040/150, [time] = 2.00s, [Acc 4256-tr]:0.947, [avrg loss] = 0.1263868. [Accu 528-Val]:0.826. Best @ 002, with accu 0.928.
+EPOCH = 041/150, [time] = 1.96s, [Acc 4256-tr]:0.914, [avrg loss] = 0.1392335. [Accu 528-Val]:0.731. Best @ 002, with accu 0.928.
+EPOCH = 042/150, [time] = 1.97s, [Acc 4256-tr]:0.962, [avrg loss] = 0.1167395. [Accu 528-Val]:0.898. Best @ 002, with accu 0.928.
+EPOCH = 043/150, [time] = 1.96s, [Acc 4256-tr]:0.965, [avrg loss] = 0.1234883. [Accu 528-Val]:0.864. Best @ 002, with accu 0.928.
+EPOCH = 044/150, [time] = 1.99s, [Acc 4256-tr]:0.951, [avrg loss] = 0.1352712. [Accu 528-Val]:0.833. Best @ 002, with accu 0.928.
+EPOCH = 045/150, [time] = 1.91s, [Acc 4256-tr]:0.966, [avrg loss] = 0.1193080. [Accu 528-Val]:0.858. Best @ 002, with accu 0.928.
+EPOCH = 046/150, [time] = 1.93s, [Acc 4256-tr]:0.971, [avrg loss] = 0.1152595. [Accu 528-Val]:0.816. Best @ 002, with accu 0.928.
+EPOCH = 047/150, [time] = 1.91s, [Acc 4256-tr]:0.850, [avrg loss] = 0.1156999. [Accu 528-Val]:0.822. Best @ 002, with accu 0.928.
+EPOCH = 048/150, [time] = 1.90s, [Acc 4256-tr]:0.969, [avrg loss] = 0.1188079. [Accu 528-Val]:0.767. Best @ 002, with accu 0.928.
+EPOCH = 049/150, [time] = 2.05s, [Acc 4256-tr]:0.950, [avrg loss] = 0.1092830. [Accu 528-Val]:0.866. Best @ 002, with accu 0.928.
+EPOCH = 050/150, [time] = 1.94s, [Acc 4256-tr]:0.978, [avrg loss] = 0.1046276. [Accu 528-Val]:0.867. Best @ 002, with accu 0.928.
+EPOCH = 051/150, [time] = 1.92s, [Acc 4256-tr]:0.977, [avrg loss] = 0.1057261. [Accu 528-Val]:0.835. Best @ 002, with accu 0.928.
+EPOCH = 052/150, [time] = 1.97s, [Acc 4256-tr]:0.980, [avrg loss] = 0.0978866. [Accu 528-Val]:0.873. Best @ 002, with accu 0.928.
+EPOCH = 053/150, [time] = 1.95s, [Acc 4256-tr]:0.972, [avrg loss] = 0.0968617. [Accu 528-Val]:0.881. Best @ 002, with accu 0.928.
+EPOCH = 054/150, [time] = 1.93s, [Acc 4256-tr]:0.982, [avrg loss] = 0.1007872. [Accu 528-Val]:0.839. Best @ 002, with accu 0.928.
+EPOCH = 055/150, [time] = 1.96s, [Acc 4256-tr]:0.978, [avrg loss] = 0.1038519. [Accu 528-Val]:0.871. Best @ 002, with accu 0.928.
+EPOCH = 056/150, [time] = 1.89s, [Acc 4256-tr]:0.979, [avrg loss] = 0.0999833. [Accu 528-Val]:0.837. Best @ 002, with accu 0.928.
+EPOCH = 057/150, [time] = 1.93s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0970353. [Accu 528-Val]:0.867. Best @ 002, with accu 0.928.
+EPOCH = 058/150, [time] = 1.91s, [Acc 4256-tr]:0.978, [avrg loss] = 0.0895059. [Accu 528-Val]:0.869. Best @ 002, with accu 0.928.
+EPOCH = 059/150, [time] = 1.90s, [Acc 4256-tr]:0.980, [avrg loss] = 0.0894457. [Accu 528-Val]:0.854. Best @ 002, with accu 0.928.
+EPOCH = 060/150, [time] = 1.94s, [Acc 4256-tr]:0.977, [avrg loss] = 0.0845054. [Accu 528-Val]:0.860. Best @ 002, with accu 0.928.
+EPOCH = 061/150, [time] = 1.96s, [Acc 4256-tr]:0.976, [avrg loss] = 0.0891060. [Accu 528-Val]:0.790. Best @ 002, with accu 0.928.
+EPOCH = 062/150, [time] = 1.89s, [Acc 4256-tr]:0.979, [avrg loss] = 0.0889599. [Accu 528-Val]:0.858. Best @ 002, with accu 0.928.
+EPOCH = 063/150, [time] = 1.92s, [Acc 4256-tr]:0.978, [avrg loss] = 0.0931517. [Accu 528-Val]:0.826. Best @ 002, with accu 0.928.
+EPOCH = 064/150, [time] = 1.91s, [Acc 4256-tr]:0.977, [avrg loss] = 0.0867487. [Accu 528-Val]:0.830. Best @ 002, with accu 0.928.
+EPOCH = 065/150, [time] = 1.92s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0898246. [Accu 528-Val]:0.862. Best @ 002, with accu 0.928.
+EPOCH = 066/150, [time] = 1.88s, [Acc 4256-tr]:0.977, [avrg loss] = 0.0887566. [Accu 528-Val]:0.831. Best @ 002, with accu 0.928.
+EPOCH = 067/150, [time] = 1.95s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0804097. [Accu 528-Val]:0.869. Best @ 002, with accu 0.928.
+EPOCH = 068/150, [time] = 1.95s, [Acc 4256-tr]:0.977, [avrg loss] = 0.0869179. [Accu 528-Val]:0.818. Best @ 002, with accu 0.928.
+EPOCH = 069/150, [time] = 1.93s, [Acc 4256-tr]:0.977, [avrg loss] = 0.0907095. [Accu 528-Val]:0.839. Best @ 002, with accu 0.928.
+EPOCH = 070/150, [time] = 1.95s, [Acc 4256-tr]:0.977, [avrg loss] = 0.0865856. [Accu 528-Val]:0.835. Best @ 002, with accu 0.928.
+EPOCH = 071/150, [time] = 1.92s, [Acc 4256-tr]:0.978, [avrg loss] = 0.0895420. [Accu 528-Val]:0.850. Best @ 002, with accu 0.928.
+EPOCH = 072/150, [time] = 1.95s, [Acc 4256-tr]:0.976, [avrg loss] = 0.0893215. [Accu 528-Val]:0.854. Best @ 002, with accu 0.928.
+EPOCH = 073/150, [time] = 1.97s, [Acc 4256-tr]:0.980, [avrg loss] = 0.0810519. [Accu 528-Val]:0.852. Best @ 002, with accu 0.928.
+EPOCH = 074/150, [time] = 1.91s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0923473. [Accu 528-Val]:0.850. Best @ 002, with accu 0.928.
+EPOCH = 075/150, [time] = 1.93s, [Acc 4256-tr]:0.981, [avrg loss] = 0.0794070. [Accu 528-Val]:0.848. Best @ 002, with accu 0.928.
+EPOCH = 076/150, [time] = 1.96s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0844954. [Accu 528-Val]:0.833. Best @ 002, with accu 0.928.
+EPOCH = 077/150, [time] = 1.81s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0843112. [Accu 528-Val]:0.843. Best @ 002, with accu 0.928.
+EPOCH = 078/150, [time] = 1.87s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0791868. [Accu 528-Val]:0.860. Best @ 002, with accu 0.928.
+EPOCH = 079/150, [time] = 1.96s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0832675. [Accu 528-Val]:0.852. Best @ 002, with accu 0.928.
+EPOCH = 080/150, [time] = 2.00s, [Acc 4256-tr]:0.973, [avrg loss] = 0.0791808. [Accu 528-Val]:0.867. Best @ 002, with accu 0.928.
+EPOCH = 081/150, [time] = 1.99s, [Acc 4256-tr]:0.977, [avrg loss] = 0.0775861. [Accu 528-Val]:0.803. Best @ 002, with accu 0.928.
+EPOCH = 082/150, [time] = 1.95s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0826050. [Accu 528-Val]:0.854. Best @ 002, with accu 0.928.
+EPOCH = 083/150, [time] = 1.91s, [Acc 4256-tr]:0.980, [avrg loss] = 0.0793503. [Accu 528-Val]:0.862. Best @ 002, with accu 0.928.
+EPOCH = 084/150, [time] = 1.95s, [Acc 4256-tr]:0.970, [avrg loss] = 0.0782038. [Accu 528-Val]:0.722. Best @ 002, with accu 0.928.
+EPOCH = 085/150, [time] = 1.99s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0857406. [Accu 528-Val]:0.831. Best @ 002, with accu 0.928.
+EPOCH = 086/150, [time] = 1.92s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0822663. [Accu 528-Val]:0.858. Best @ 002, with accu 0.928.
+EPOCH = 087/150, [time] = 1.96s, [Acc 4256-tr]:0.980, [avrg loss] = 0.0746104. [Accu 528-Val]:0.869. Best @ 002, with accu 0.928.
+EPOCH = 088/150, [time] = 1.98s, [Acc 4256-tr]:0.976, [avrg loss] = 0.0839221. [Accu 528-Val]:0.741. Best @ 002, with accu 0.928.
+EPOCH = 089/150, [time] = 1.96s, [Acc 4256-tr]:0.978, [avrg loss] = 0.0776732. [Accu 528-Val]:0.871. Best @ 002, with accu 0.928.
+EPOCH = 090/150, [time] = 1.92s, [Acc 4256-tr]:0.977, [avrg loss] = 0.0815767. [Accu 528-Val]:0.854. Best @ 002, with accu 0.928.
+EPOCH = 091/150, [time] = 1.88s, [Acc 4256-tr]:0.985, [avrg loss] = 0.0778511. [Accu 528-Val]:0.833. Best @ 002, with accu 0.928.
+EPOCH = 092/150, [time] = 1.93s, [Acc 4256-tr]:0.979, [avrg loss] = 0.0765834. [Accu 528-Val]:0.818. Best @ 002, with accu 0.928.
+EPOCH = 093/150, [time] = 1.94s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0809861. [Accu 528-Val]:0.833. Best @ 002, with accu 0.928.
+EPOCH = 094/150, [time] = 1.91s, [Acc 4256-tr]:0.985, [avrg loss] = 0.0936687. [Accu 528-Val]:0.833. Best @ 002, with accu 0.928.
+EPOCH = 095/150, [time] = 1.99s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0797540. [Accu 528-Val]:0.866. Best @ 002, with accu 0.928.
+EPOCH = 096/150, [time] = 1.99s, [Acc 4256-tr]:0.966, [avrg loss] = 0.0781338. [Accu 528-Val]:0.869. Best @ 002, with accu 0.928.
+EPOCH = 097/150, [time] = 1.91s, [Acc 4256-tr]:0.970, [avrg loss] = 0.0746087. [Accu 528-Val]:0.831. Best @ 002, with accu 0.928.
+EPOCH = 098/150, [time] = 1.89s, [Acc 4256-tr]:0.986, [avrg loss] = 0.0776068. [Accu 528-Val]:0.860. Best @ 002, with accu 0.928.
+EPOCH = 099/150, [time] = 1.91s, [Acc 4256-tr]:0.986, [avrg loss] = 0.0829569. [Accu 528-Val]:0.826. Best @ 002, with accu 0.928.
+EPOCH = 100/150, [time] = 1.93s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0696562. [Accu 528-Val]:0.852. Best @ 002, with accu 0.928.
+EPOCH = 101/150, [time] = 1.93s, [Acc 4256-tr]:0.985, [avrg loss] = 0.0699235. [Accu 528-Val]:0.841. Best @ 002, with accu 0.928.
+EPOCH = 102/150, [time] = 1.94s, [Acc 4256-tr]:0.985, [avrg loss] = 0.0717043. [Accu 528-Val]:0.843. Best @ 002, with accu 0.928.
+EPOCH = 103/150, [time] = 2.00s, [Acc 4256-tr]:0.985, [avrg loss] = 0.0813430. [Accu 528-Val]:0.831. Best @ 002, with accu 0.928.
+EPOCH = 104/150, [time] = 1.84s, [Acc 4256-tr]:0.986, [avrg loss] = 0.0781427. [Accu 528-Val]:0.837. Best @ 002, with accu 0.928.
+EPOCH = 105/150, [time] = 1.97s, [Acc 4256-tr]:0.986, [avrg loss] = 0.0719714. [Accu 528-Val]:0.839. Best @ 002, with accu 0.928.
+EPOCH = 106/150, [time] = 1.97s, [Acc 4256-tr]:0.987, [avrg loss] = 0.0722716. [Accu 528-Val]:0.839. Best @ 002, with accu 0.928.
+EPOCH = 107/150, [time] = 1.96s, [Acc 4256-tr]:0.987, [avrg loss] = 0.0719898. [Accu 528-Val]:0.835. Best @ 002, with accu 0.928.
+EPOCH = 108/150, [time] = 1.91s, [Acc 4256-tr]:0.985, [avrg loss] = 0.0698949. [Accu 528-Val]:0.839. Best @ 002, with accu 0.928.
+EPOCH = 109/150, [time] = 1.92s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0700771. [Accu 528-Val]:0.841. Best @ 002, with accu 0.928.
+EPOCH = 110/150, [time] = 1.97s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0634165. [Accu 528-Val]:0.852. Best @ 002, with accu 0.928.
+EPOCH = 111/150, [time] = 2.10s, [Acc 4256-tr]:0.986, [avrg loss] = 0.0676967. [Accu 528-Val]:0.835. Best @ 002, with accu 0.928.
+
+------ ******* ------ New Log ------ ******* ------
+isTrain: True
+net: MLP_CE_3
+isCNN: False
+isRandom: True
+exp_name: Task1_MLP_CE_3
+batch_size: 32
+epoch: 150
+milestones: [50, 100]
+lr: 0.001
+weight_decay: 0.0
+reweight: 1.0
+dir_root: ./data
+task: Task_1
+filename: data_1.mat
+save_dir: ./experiments
+MLP_CE_3(
+  (mlp): Sequential(
+    (0): Linear(in_features=779, out_features=16, bias=True)
+    (1): BatchNorm1d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): Linear(in_features=16, out_features=16, bias=True)
+    (4): BatchNorm1d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU()
+    (6): Linear(in_features=16, out_features=2, bias=True)
+  )
+)
+EPOCH = 000/150, [time] = 2.03s, [Acc 4256-tr]:0.804, [avrg loss] = 0.4702956. [Accu 528-Val]:0.896. Best @ 000, with accu 0.896.
+EPOCH = 001/150, [time] = 1.95s, [Acc 4256-tr]:0.886, [avrg loss] = 0.3679726. [Accu 528-Val]:0.907. Best @ 001, with accu 0.907.
+EPOCH = 002/150, [time] = 1.93s, [Acc 4256-tr]:0.880, [avrg loss] = 0.3067289. [Accu 528-Val]:0.902. Best @ 001, with accu 0.907.
+EPOCH = 003/150, [time] = 1.95s, [Acc 4256-tr]:0.907, [avrg loss] = 0.2825591. [Accu 528-Val]:0.898. Best @ 001, with accu 0.907.
+EPOCH = 004/150, [time] = 1.93s, [Acc 4256-tr]:0.872, [avrg loss] = 0.3030104. [Accu 528-Val]:0.890. Best @ 001, with accu 0.907.
+EPOCH = 005/150, [time] = 1.98s, [Acc 4256-tr]:0.884, [avrg loss] = 0.2688789. [Accu 528-Val]:0.866. Best @ 001, with accu 0.907.
+EPOCH = 006/150, [time] = 1.97s, [Acc 4256-tr]:0.902, [avrg loss] = 0.2593328. [Accu 528-Val]:0.894. Best @ 001, with accu 0.907.
+EPOCH = 007/150, [time] = 1.89s, [Acc 4256-tr]:0.880, [avrg loss] = 0.2625375. [Accu 528-Val]:0.835. Best @ 001, with accu 0.907.
+EPOCH = 008/150, [time] = 1.95s, [Acc 4256-tr]:0.911, [avrg loss] = 0.2487532. [Accu 528-Val]:0.922. Best @ 008, with accu 0.922.
+EPOCH = 009/150, [time] = 1.88s, [Acc 4256-tr]:0.900, [avrg loss] = 0.2599215. [Accu 528-Val]:0.873. Best @ 008, with accu 0.922.
+EPOCH = 010/150, [time] = 1.87s, [Acc 4256-tr]:0.907, [avrg loss] = 0.2716031. [Accu 528-Val]:0.879. Best @ 008, with accu 0.922.
+EPOCH = 011/150, [time] = 1.90s, [Acc 4256-tr]:0.931, [avrg loss] = 0.2409620. [Accu 528-Val]:0.883. Best @ 008, with accu 0.922.
+EPOCH = 012/150, [time] = 1.93s, [Acc 4256-tr]:0.892, [avrg loss] = 0.2191140. [Accu 528-Val]:0.907. Best @ 008, with accu 0.922.
+EPOCH = 013/150, [time] = 1.89s, [Acc 4256-tr]:0.929, [avrg loss] = 0.2072662. [Accu 528-Val]:0.881. Best @ 008, with accu 0.922.
+EPOCH = 014/150, [time] = 1.79s, [Acc 4256-tr]:0.893, [avrg loss] = 0.2011510. [Accu 528-Val]:0.919. Best @ 008, with accu 0.922.
+EPOCH = 015/150, [time] = 1.91s, [Acc 4256-tr]:0.896, [avrg loss] = 0.1921606. [Accu 528-Val]:0.864. Best @ 008, with accu 0.922.
+EPOCH = 016/150, [time] = 1.92s, [Acc 4256-tr]:0.840, [avrg loss] = 0.2089943. [Accu 528-Val]:0.396. Best @ 008, with accu 0.922.
+EPOCH = 017/150, [time] = 1.88s, [Acc 4256-tr]:0.909, [avrg loss] = 0.2099965. [Accu 528-Val]:0.699. Best @ 008, with accu 0.922.
+EPOCH = 018/150, [time] = 1.96s, [Acc 4256-tr]:0.944, [avrg loss] = 0.1953636. [Accu 528-Val]:0.888. Best @ 008, with accu 0.922.
+EPOCH = 019/150, [time] = 1.95s, [Acc 4256-tr]:0.941, [avrg loss] = 0.1867966. [Accu 528-Val]:0.900. Best @ 008, with accu 0.922.
+EPOCH = 020/150, [time] = 1.91s, [Acc 4256-tr]:0.940, [avrg loss] = 0.1767760. [Accu 528-Val]:0.890. Best @ 008, with accu 0.922.
+EPOCH = 021/150, [time] = 1.92s, [Acc 4256-tr]:0.922, [avrg loss] = 0.1675910. [Accu 528-Val]:0.888. Best @ 008, with accu 0.922.
+EPOCH = 022/150, [time] = 1.89s, [Acc 4256-tr]:0.924, [avrg loss] = 0.1787039. [Accu 528-Val]:0.898. Best @ 008, with accu 0.922.
+EPOCH = 023/150, [time] = 1.89s, [Acc 4256-tr]:0.933, [avrg loss] = 0.1716300. [Accu 528-Val]:0.877. Best @ 008, with accu 0.922.
+EPOCH = 024/150, [time] = 1.95s, [Acc 4256-tr]:0.909, [avrg loss] = 0.1746176. [Accu 528-Val]:0.881. Best @ 008, with accu 0.922.
+EPOCH = 025/150, [time] = 1.92s, [Acc 4256-tr]:0.819, [avrg loss] = 0.1656218. [Accu 528-Val]:0.788. Best @ 008, with accu 0.922.
+EPOCH = 026/150, [time] = 1.93s, [Acc 4256-tr]:0.936, [avrg loss] = 0.1700251. [Accu 528-Val]:0.896. Best @ 008, with accu 0.922.
+EPOCH = 027/150, [time] = 1.90s, [Acc 4256-tr]:0.956, [avrg loss] = 0.1646548. [Accu 528-Val]:0.888. Best @ 008, with accu 0.922.
+EPOCH = 028/150, [time] = 1.94s, [Acc 4256-tr]:0.923, [avrg loss] = 0.1716131. [Accu 528-Val]:0.830. Best @ 008, with accu 0.922.
+EPOCH = 029/150, [time] = 1.88s, [Acc 4256-tr]:0.961, [avrg loss] = 0.1608522. [Accu 528-Val]:0.902. Best @ 008, with accu 0.922.
+EPOCH = 030/150, [time] = 1.83s, [Acc 4256-tr]:0.930, [avrg loss] = 0.1485641. [Accu 528-Val]:0.741. Best @ 008, with accu 0.922.
+EPOCH = 031/150, [time] = 1.94s, [Acc 4256-tr]:0.943, [avrg loss] = 0.1580799. [Accu 528-Val]:0.864. Best @ 008, with accu 0.922.
+EPOCH = 032/150, [time] = 1.92s, [Acc 4256-tr]:0.784, [avrg loss] = 0.1650027. [Accu 528-Val]:0.275. Best @ 008, with accu 0.922.
+EPOCH = 033/150, [time] = 1.96s, [Acc 4256-tr]:0.907, [avrg loss] = 0.1401410. [Accu 528-Val]:0.860. Best @ 008, with accu 0.922.
+EPOCH = 034/150, [time] = 1.89s, [Acc 4256-tr]:0.951, [avrg loss] = 0.1451763. [Accu 528-Val]:0.795. Best @ 008, with accu 0.922.
+EPOCH = 035/150, [time] = 1.99s, [Acc 4256-tr]:0.950, [avrg loss] = 0.1393069. [Accu 528-Val]:0.794. Best @ 008, with accu 0.922.
+EPOCH = 036/150, [time] = 1.90s, [Acc 4256-tr]:0.949, [avrg loss] = 0.1394583. [Accu 528-Val]:0.896. Best @ 008, with accu 0.922.
+EPOCH = 037/150, [time] = 1.94s, [Acc 4256-tr]:0.926, [avrg loss] = 0.1328944. [Accu 528-Val]:0.879. Best @ 008, with accu 0.922.
+EPOCH = 038/150, [time] = 1.95s, [Acc 4256-tr]:0.954, [avrg loss] = 0.1384046. [Accu 528-Val]:0.890. Best @ 008, with accu 0.922.
+EPOCH = 039/150, [time] = 1.95s, [Acc 4256-tr]:0.758, [avrg loss] = 0.1362705. [Accu 528-Val]:0.735. Best @ 008, with accu 0.922.
+EPOCH = 040/150, [time] = 1.90s, [Acc 4256-tr]:0.954, [avrg loss] = 0.1379847. [Accu 528-Val]:0.754. Best @ 008, with accu 0.922.
+EPOCH = 041/150, [time] = 1.96s, [Acc 4256-tr]:0.957, [avrg loss] = 0.1462038. [Accu 528-Val]:0.902. Best @ 008, with accu 0.922.
+EPOCH = 042/150, [time] = 1.96s, [Acc 4256-tr]:0.959, [avrg loss] = 0.1326616. [Accu 528-Val]:0.767. Best @ 008, with accu 0.922.
+EPOCH = 043/150, [time] = 1.96s, [Acc 4256-tr]:0.953, [avrg loss] = 0.1365175. [Accu 528-Val]:0.845. Best @ 008, with accu 0.922.
+EPOCH = 044/150, [time] = 1.93s, [Acc 4256-tr]:0.940, [avrg loss] = 0.1324068. [Accu 528-Val]:0.837. Best @ 008, with accu 0.922.
+EPOCH = 045/150, [time] = 1.89s, [Acc 4256-tr]:0.953, [avrg loss] = 0.1177280. [Accu 528-Val]:0.877. Best @ 008, with accu 0.922.
+EPOCH = 046/150, [time] = 1.98s, [Acc 4256-tr]:0.872, [avrg loss] = 0.1345456. [Accu 528-Val]:0.799. Best @ 008, with accu 0.922.
+EPOCH = 047/150, [time] = 1.97s, [Acc 4256-tr]:0.966, [avrg loss] = 0.1207671. [Accu 528-Val]:0.845. Best @ 008, with accu 0.922.
+EPOCH = 048/150, [time] = 1.98s, [Acc 4256-tr]:0.956, [avrg loss] = 0.1213895. [Accu 528-Val]:0.892. Best @ 008, with accu 0.922.
+EPOCH = 049/150, [time] = 1.97s, [Acc 4256-tr]:0.949, [avrg loss] = 0.1452705. [Accu 528-Val]:0.727. Best @ 008, with accu 0.922.
+EPOCH = 050/150, [time] = 2.01s, [Acc 4256-tr]:0.970, [avrg loss] = 0.1130705. [Accu 528-Val]:0.879. Best @ 008, with accu 0.922.
+EPOCH = 051/150, [time] = 1.95s, [Acc 4256-tr]:0.972, [avrg loss] = 0.1056784. [Accu 528-Val]:0.814. Best @ 008, with accu 0.922.
+EPOCH = 052/150, [time] = 2.01s, [Acc 4256-tr]:0.975, [avrg loss] = 0.1075087. [Accu 528-Val]:0.858. Best @ 008, with accu 0.922.
+EPOCH = 053/150, [time] = 1.93s, [Acc 4256-tr]:0.970, [avrg loss] = 0.1014300. [Accu 528-Val]:0.864. Best @ 008, with accu 0.922.
+EPOCH = 054/150, [time] = 1.91s, [Acc 4256-tr]:0.977, [avrg loss] = 0.1097290. [Accu 528-Val]:0.839. Best @ 008, with accu 0.922.
+EPOCH = 055/150, [time] = 1.91s, [Acc 4256-tr]:0.974, [avrg loss] = 0.1107043. [Accu 528-Val]:0.862. Best @ 008, with accu 0.922.
+EPOCH = 056/150, [time] = 2.01s, [Acc 4256-tr]:0.975, [avrg loss] = 0.1067694. [Accu 528-Val]:0.845. Best @ 008, with accu 0.922.
+EPOCH = 057/150, [time] = 1.99s, [Acc 4256-tr]:0.976, [avrg loss] = 0.1127045. [Accu 528-Val]:0.875. Best @ 008, with accu 0.922.
+EPOCH = 058/150, [time] = 1.97s, [Acc 4256-tr]:0.974, [avrg loss] = 0.1003647. [Accu 528-Val]:0.850. Best @ 008, with accu 0.922.
+EPOCH = 059/150, [time] = 1.87s, [Acc 4256-tr]:0.974, [avrg loss] = 0.1035166. [Accu 528-Val]:0.826. Best @ 008, with accu 0.922.
+EPOCH = 060/150, [time] = 1.95s, [Acc 4256-tr]:0.979, [avrg loss] = 0.1035128. [Accu 528-Val]:0.866. Best @ 008, with accu 0.922.
+EPOCH = 061/150, [time] = 1.96s, [Acc 4256-tr]:0.959, [avrg loss] = 0.1072178. [Accu 528-Val]:0.786. Best @ 008, with accu 0.922.
+EPOCH = 062/150, [time] = 1.96s, [Acc 4256-tr]:0.949, [avrg loss] = 0.1055184. [Accu 528-Val]:0.661. Best @ 008, with accu 0.922.
+EPOCH = 063/150, [time] = 1.95s, [Acc 4256-tr]:0.978, [avrg loss] = 0.0952470. [Accu 528-Val]:0.848. Best @ 008, with accu 0.922.
+EPOCH = 064/150, [time] = 2.09s, [Acc 4256-tr]:0.973, [avrg loss] = 0.0999737. [Accu 528-Val]:0.877. Best @ 008, with accu 0.922.
+EPOCH = 065/150, [time] = 1.93s, [Acc 4256-tr]:0.974, [avrg loss] = 0.0943789. [Accu 528-Val]:0.886. Best @ 008, with accu 0.922.
+EPOCH = 066/150, [time] = 1.90s, [Acc 4256-tr]:0.973, [avrg loss] = 0.0934614. [Accu 528-Val]:0.777. Best @ 008, with accu 0.922.
+EPOCH = 067/150, [time] = 1.94s, [Acc 4256-tr]:0.971, [avrg loss] = 0.1091663. [Accu 528-Val]:0.856. Best @ 008, with accu 0.922.
+EPOCH = 068/150, [time] = 1.93s, [Acc 4256-tr]:0.975, [avrg loss] = 0.0975008. [Accu 528-Val]:0.858. Best @ 008, with accu 0.922.
+EPOCH = 069/150, [time] = 1.90s, [Acc 4256-tr]:0.976, [avrg loss] = 0.1003556. [Accu 528-Val]:0.881. Best @ 008, with accu 0.922.
+EPOCH = 070/150, [time] = 1.93s, [Acc 4256-tr]:0.978, [avrg loss] = 0.1008213. [Accu 528-Val]:0.833. Best @ 008, with accu 0.922.
+EPOCH = 071/150, [time] = 1.99s, [Acc 4256-tr]:0.973, [avrg loss] = 0.0882209. [Accu 528-Val]:0.826. Best @ 008, with accu 0.922.
+EPOCH = 072/150, [time] = 1.92s, [Acc 4256-tr]:0.981, [avrg loss] = 0.0935553. [Accu 528-Val]:0.879. Best @ 008, with accu 0.922.
+EPOCH = 073/150, [time] = 1.93s, [Acc 4256-tr]:0.978, [avrg loss] = 0.0941806. [Accu 528-Val]:0.848. Best @ 008, with accu 0.922.
+EPOCH = 074/150, [time] = 1.94s, [Acc 4256-tr]:0.980, [avrg loss] = 0.0975085. [Accu 528-Val]:0.843. Best @ 008, with accu 0.922.
+EPOCH = 075/150, [time] = 1.92s, [Acc 4256-tr]:0.978, [avrg loss] = 0.0938079. [Accu 528-Val]:0.856. Best @ 008, with accu 0.922.
+EPOCH = 076/150, [time] = 1.90s, [Acc 4256-tr]:0.978, [avrg loss] = 0.0992053. [Accu 528-Val]:0.856. Best @ 008, with accu 0.922.
+EPOCH = 077/150, [time] = 1.91s, [Acc 4256-tr]:0.977, [avrg loss] = 0.0899358. [Accu 528-Val]:0.879. Best @ 008, with accu 0.922.
+EPOCH = 078/150, [time] = 1.95s, [Acc 4256-tr]:0.979, [avrg loss] = 0.0866618. [Accu 528-Val]:0.848. Best @ 008, with accu 0.922.
+EPOCH = 079/150, [time] = 1.92s, [Acc 4256-tr]:0.980, [avrg loss] = 0.0944372. [Accu 528-Val]:0.864. Best @ 008, with accu 0.922.
+EPOCH = 080/150, [time] = 1.90s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0869343. [Accu 528-Val]:0.884. Best @ 008, with accu 0.922.
+EPOCH = 081/150, [time] = 1.90s, [Acc 4256-tr]:0.976, [avrg loss] = 0.0902981. [Accu 528-Val]:0.866. Best @ 008, with accu 0.922.
+EPOCH = 082/150, [time] = 2.01s, [Acc 4256-tr]:0.979, [avrg loss] = 0.0926181. [Accu 528-Val]:0.839. Best @ 008, with accu 0.922.
+EPOCH = 083/150, [time] = 1.92s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0935887. [Accu 528-Val]:0.845. Best @ 008, with accu 0.922.
+EPOCH = 084/150, [time] = 1.90s, [Acc 4256-tr]:0.981, [avrg loss] = 0.0903089. [Accu 528-Val]:0.867. Best @ 008, with accu 0.922.
+EPOCH = 085/150, [time] = 1.94s, [Acc 4256-tr]:0.981, [avrg loss] = 0.0807860. [Accu 528-Val]:0.875. Best @ 008, with accu 0.922.
+EPOCH = 086/150, [time] = 1.90s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0846040. [Accu 528-Val]:0.883. Best @ 008, with accu 0.922.
+EPOCH = 087/150, [time] = 1.96s, [Acc 4256-tr]:0.981, [avrg loss] = 0.0955949. [Accu 528-Val]:0.869. Best @ 008, with accu 0.922.
+EPOCH = 088/150, [time] = 1.90s, [Acc 4256-tr]:0.973, [avrg loss] = 0.0910675. [Accu 528-Val]:0.831. Best @ 008, with accu 0.922.
+EPOCH = 089/150, [time] = 1.98s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0797118. [Accu 528-Val]:0.852. Best @ 008, with accu 0.922.
+EPOCH = 090/150, [time] = 2.01s, [Acc 4256-tr]:0.973, [avrg loss] = 0.0824470. [Accu 528-Val]:0.835. Best @ 008, with accu 0.922.
+EPOCH = 091/150, [time] = 1.88s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0820505. [Accu 528-Val]:0.856. Best @ 008, with accu 0.922.
+EPOCH = 092/150, [time] = 1.80s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0832666. [Accu 528-Val]:0.841. Best @ 008, with accu 0.922.
+EPOCH = 093/150, [time] = 1.91s, [Acc 4256-tr]:0.979, [avrg loss] = 0.0908834. [Accu 528-Val]:0.830. Best @ 008, with accu 0.922.
+EPOCH = 094/150, [time] = 1.93s, [Acc 4256-tr]:0.983, [avrg loss] = 0.0832340. [Accu 528-Val]:0.864. Best @ 008, with accu 0.922.
+EPOCH = 095/150, [time] = 1.91s, [Acc 4256-tr]:0.979, [avrg loss] = 0.1024330. [Accu 528-Val]:0.858. Best @ 008, with accu 0.922.
+EPOCH = 096/150, [time] = 1.95s, [Acc 4256-tr]:0.977, [avrg loss] = 0.0830468. [Accu 528-Val]:0.856. Best @ 008, with accu 0.922.
+EPOCH = 097/150, [time] = 1.94s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0879207. [Accu 528-Val]:0.869. Best @ 008, with accu 0.922.
+EPOCH = 098/150, [time] = 1.91s, [Acc 4256-tr]:0.977, [avrg loss] = 0.0877775. [Accu 528-Val]:0.807. Best @ 008, with accu 0.922.
+EPOCH = 099/150, [time] = 1.93s, [Acc 4256-tr]:0.982, [avrg loss] = 0.0796129. [Accu 528-Val]:0.879. Best @ 008, with accu 0.922.
+EPOCH = 100/150, [time] = 1.96s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0747674. [Accu 528-Val]:0.873. Best @ 008, with accu 0.922.
+EPOCH = 101/150, [time] = 1.87s, [Acc 4256-tr]:0.985, [avrg loss] = 0.0755054. [Accu 528-Val]:0.867. Best @ 008, with accu 0.922.
+EPOCH = 102/150, [time] = 1.92s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0845299. [Accu 528-Val]:0.869. Best @ 008, with accu 0.922.
+EPOCH = 103/150, [time] = 1.94s, [Acc 4256-tr]:0.986, [avrg loss] = 0.0773020. [Accu 528-Val]:0.871. Best @ 008, with accu 0.922.
+EPOCH = 104/150, [time] = 1.96s, [Acc 4256-tr]:0.986, [avrg loss] = 0.0766656. [Accu 528-Val]:0.864. Best @ 008, with accu 0.922.
+EPOCH = 105/150, [time] = 1.94s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0836222. [Accu 528-Val]:0.867. Best @ 008, with accu 0.922.
+EPOCH = 106/150, [time] = 1.96s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0883312. [Accu 528-Val]:0.877. Best @ 008, with accu 0.922.
+EPOCH = 107/150, [time] = 1.92s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0809236. [Accu 528-Val]:0.869. Best @ 008, with accu 0.922.
+EPOCH = 108/150, [time] = 2.03s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0825691. [Accu 528-Val]:0.847. Best @ 008, with accu 0.922.
+EPOCH = 109/150, [time] = 1.91s, [Acc 4256-tr]:0.984, [avrg loss] = 0.0776663. [Accu 528-Val]:0.873. Best @ 008, with accu 0.922.
+EPOCH = 110/150, [time] = 1.98s, [Acc 4256-tr]:0.986, [avrg loss] = 0.0788837. [Accu 528-Val]:0.867. Best @ 008, with accu 0.922.
+EPOCH = 111/150, [time] = 2.03s, [Acc 4256-tr]:0.981, [avrg loss] = 0.0764651. [Accu 528-Val]:0.848. Best @ 008, with accu 0.922.
+EPOCH = 112/150, [time] = 1.96s, [Acc 4256-tr]:0.985, [avrg loss] = 0.0718022. [Accu 528-Val]:0.858. Best @ 008, with accu 0.922.
+
+------ ******* ------ New Log ------ ******* ------
+isTrain: True
+net: MLP_CE_3
+isCNN: False
+isRandom: True
+exp_name: Task1_MLP_CE_3
+batch_size: 32
+epoch: 150
+milestones: [50, 100]
+lr: 0.001
+weight_decay: 0.0
+reweight: 1.0
+dir_root: ./data
+task: Task_1
+filename: data_1.mat
+save_dir: ./experiments
+MLP_CE_3(
+  (mlp): Sequential(
+    (0): Linear(in_features=779, out_features=16, bias=True)
+    (1): BatchNorm1d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): Linear(in_features=16, out_features=16, bias=True)
+    (4): BatchNorm1d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU()
+    (6): Linear(in_features=16, out_features=2, bias=True)
+  )
+)
